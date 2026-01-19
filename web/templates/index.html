@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Trang chủ - Job Salary Analytics{% endblock %}
+
+{% block content %}
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Phân tích lương ngành IT</h1>
+        
+        <hr>
+        <p>
+            Dự án thực hiện thu thập, xử lý và phân tích dữ liệu việc làm để đưa ra các thống kê về mức lương trong ngành Công nghệ thông tin tại Việt Nam.
+        </p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('analysis') }}" role="button">Xem trang phân tích »</a>
+    </div>
+</div>
+{% endblock %}

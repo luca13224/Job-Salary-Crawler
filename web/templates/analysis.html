@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Phân tích - Job Salary Analytics{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="p-5 mb-4 bg-white rounded-3 shadow-sm">
+        <div class="container-fluid py-2 text-center">
+            <h1 class="display-5 fw-bold">Trang phân tích dữ liệu lương</h1>
+            <p class="fs-5 text-muted">
+            </p>
+        </div>
+    </div>
+
+    <!-- Charts Section -->
+    <div class="row align-items-md-stretch">
+        <h2 class="text-center mb-4">Biểu đồ trực quan</h2>
+
+        <div class="col-md-6 mb-4">
+            <div class="h-100 p-5 bg-light border rounded-3">
+                <h4 class="mb-3">Lương trung bình theo cấp bậc</h4>
+                <img src="{{ url_for('static', filename=chart1_url) }}"
+                     class="img-fluid"
+                     alt="Salary by level">
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <div class="h-100 p-5 bg-light border rounded-3">
+                <h4 class="mb-3">Top 5 địa điểm lương cao nhất</h4>
+                <img src="{{ url_for('static', filename=chart2_url) }}"
+                     class="img-fluid"
+                     alt="Salary by location">
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Table Section -->
+    <div class="mt-5">
+        <div class="card shadow-sm">
+            <div class="card-header text-center">
+                <h3>Bảng dữ liệu chi tiết</h3>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    {{ data_table | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
