@@ -1,51 +1,444 @@
-"job_title","level","salary","location","skills","source"
-"Software Engineer","Middle","38 triệu","TP.HCM","Python, Django, SQL, AWS","Sample data for demo purposes"
-"Data Analyst","Junior","18 triệu","Hà Nội","SQL, Python, Power BI","Sample data for demo purposes"
-"Frontend Developer","Middle","35 triệu","Đà Nẵng","JavaScript, React, Redux, CSS","Sample data for demo purposes"
-"QA Engineer","Junior","14 triệu","Hải Phòng","Manual Testing, Selenium","Sample data for demo purposes"
-"DevOps Engineer","Senior","70 triệu","TP.HCM","AWS, Docker, Kubernetes, Jenkins","Sample data for demo purposes"
-"Business Analyst","Middle","28 triệu","Bình Dương","SQL, JIRA, Agile","Sample data for demo purposes"
-"Backend Developer","Junior","22 triệu","Hà Nội","Java, Spring, SQL, REST API","Sample data for demo purposes"
-"Software Engineer","Senior","60 triệu","TP.HCM","Go, Kubernetes, Microservices, GCP","Sample data for demo purposes"
-"Product Manager","Lead","85 triệu","Hà Nội","Agile, Scrum, JIRA, Market Analysis","Sample data for demo purposes"
-"Mobile Developer","Middle","38 triệu","Đà Nẵng","Kotlin, Swift, Firebase","Sample data for demo purposes"
-"Intern Developer","Intern","8 triệu","TP.HCM","JavaScript, HTML, CSS","Sample data for demo purposes"
-"Fullstack Developer","Junior","22 triệu","Đồng Nai","Node.js, React, MongoDB","Sample data for demo purposes"
-"Data Scientist","Senior","75 triệu","Hà Nội","Python, TensorFlow, PyTorch, SQL","Sample data for demo purposes"
-"QA Engineer","Middle","25 triệu","Bắc Ninh","Automation Testing, Cypress","Sample data for demo purposes"
-"Software Engineer","Junior","20 triệu","Hà Nội","Python, Flask, SQL","Sample data for demo purposes"
-"Backend Developer","Middle","48 triệu","TP.HCM",".NET, C#, SQL Server, Azure","Sample data for demo purposes"
-"DevOps Engineer","Middle","45 triệu","Hải Phòng","Azure, Terraform, CI/CD","Sample data for demo purposes"
-"Frontend Developer","Junior","18 triệu","Cần Thơ","Vue.js, JavaScript, TailwindCSS","Sample data for demo purposes"
-"Project Manager","Senior","80 triệu","TP.HCM","PMP, Agile, Scrum","Sample data for demo purposes"
-"Software Engineer","Intern","7 triệu","Hà Nội","Java, Git","Sample data for demo purposes"
-"Data Analyst","Middle","30 triệu","Quảng Ninh","SQL, Tableau, Python","Sample data for demo purposes"
-"Fullstack Developer","Middle","40 triệu","Hà Nội","Java, Angular, Spring Boot","Sample data for demo purposes"
-"Software Engineer","Lead","80 triệu","TP.HCM","Architecture, Microservices, AWS","Sample data for demo purposes"
-"QA Engineer","Intern","6 triệu","Huế","Testing Basics","Sample data for demo purposes"
-"Mobile Developer","Junior","25 triệu","TP.HCM","Flutter, Dart, Firebase","Sample data for demo purposes"
-"Backend Developer","Senior","70 triệu","Hà Nội","Node.js, Express, PostgreSQL, Redis","Sample data for demo purposes"
-"Business Analyst","Junior","18 triệu","Bình Dương","Agile, Documentation","Sample data for demo purposes"
-"Frontend Developer","Senior","65 triệu","Hà Nội","React, Next.js, TypeScript","Sample data for demo purposes"
-"Software Engineer","Middle","38 triệu","TP.HCM","Java, Spring, Hibernate","Sample data for demo purposes"
-"Data Scientist","Middle","45 triệu","Đà Nẵng","Python, Scikit-learn, SQL","Sample data for demo purposes"
-"DevOps Engineer","Junior","25 triệu","Đồng Nai","Docker, Bash Scripting, AWS","Sample data for demo purposes"
-"QA Engineer","Senior","50 triệu","Hà Nội","Performance Testing, JMeter, CI/CD","Sample data for demo purposes"
-"Software Engineer","Junior","22 triệu","TP.HCM","JavaScript, Node.js, Express","Sample data for demo purposes"
-"Fullstack Developer","Senior","72 triệu","Hà Nội","Python, Django, React, AWS","Sample data for demo purposes"
-"Data Analyst","Intern","8 triệu","TP.HCM","Excel, SQL","Sample data for demo purposes"
-"Backend Developer","Lead","90 triệu","TP.HCM","System Design, Go, Kafka","Sample data for demo purposes"
-"Frontend Developer","Middle","33 triệu","Hải Phòng","Angular, TypeScript, RxJS","Sample data for demo purposes"
-"Software Engineer","Middle","35 triệu","Bắc Ninh","C++, Qt","Sample data for demo purposes"
-"Mobile Developer","Senior","68 triệu","TP.HCM","iOS, Swift, Objective-C","Sample data for demo purposes"
-"QA Engineer","Lead","75 triệu","Hà Nội","Test Strategy, Team Management","Sample for demo purposes"
-"DevOps Engineer","Intern","9 triệu","TP.HCM","Linux, Networking Basics","Sample for demo purposes"
-"Software Engineer","Junior","23 triệu","Cần Thơ","Ruby on Rails, SQL","Sample for demo purposes"
-"Business Analyst","Senior","60 triệu","TP.HCM","Product Roadmap, User Stories","Sample for demo purposes"
-"Data Scientist","Junior","30 triệu","Hà Nội","Python, Pandas, Matplotlib","Sample for demo purposes"
-"Fullstack Developer","Middle","38 triệu","Đà Nẵng","PHP, Laravel, Vue.js","Sample for demo purposes"
-"Software Engineer","Middle","40 triệu","Hà Nội","Go, Gin, Docker","Sample for demo purposes"
-"Frontend Developer","Lead","80 triệu","TP.HCM","React, Web Performance, Architecture","Sample for demo purposes"
-"Backend Developer","Middle","45 triệu","Huế","Python, FastAPI, PostgreSQL","Sample for demo purposes"
-"QA Engineer","Middle","30 triệu","Quảng Ninh","Playwright, TypeScript, Automation","Sample for demo purposes"
-... and 350 more records.
+job_title,level,salary,location,skills,source
+Software Engineer,Junior,10 triệu,Hanoi,"GCP, Kubernetes, Machine Learning",Sample data for demo purposes
+Software Engineer,Senior,60 triệu,Ho Chi Minh,"Java, Kubernetes",Sample data for demo purposes
+Product Manager,Mid-level,40 triệu,Hanoi,"Node.js, Python, JavaScript, Azure",Sample data for demo purposes
+Data Scientist,Mid-level,30 triệu,Hanoi,"Java, React, Node.js",Sample data for demo purposes
+Project Manager,Senior,45 triệu,Remote,"AWS, Docker",Sample data for demo purposes
+Mobile Developer,Mid-level,35 triệu,Ho Chi Minh,"Java, Docker, NoSQL, Machine Learning",Sample data for demo purposes
+Backend Developer,Senior,45 triệu,Ho Chi Minh,"Python, Node.js",Sample data for demo purposes
+Software Engineer,Mid-level,45 triệu,Ho Chi Minh,"SQL, GCP",Sample data for demo purposes
+Project Manager,Mid-level,45 triệu,Ho Chi Minh,"JavaScript, Deep Learning, GCP",Sample data for demo purposes
+Product Manager,Mid-level,35 triệu,Others,"GCP, SQL, Kubernetes, Deep Learning, Node.js",Sample data for demo purposes
+QA Engineer,Junior,16 triệu,Ho Chi Minh,"Azure, SQL, Docker",Sample data for demo purposes
+Mobile Developer,Junior,20 triệu,Hanoi,"Azure, Deep Learning",Sample data for demo purposes
+Frontend Developer,Mid-level,25 triệu,Hanoi,"JavaScript, React, Python, Kubernetes",Sample data for demo purposes
+Data Scientist,Mid-level,45 triệu,Remote,"GCP, NoSQL, SQL, Machine Learning",Sample data for demo purposes
+Software Engineer,Intern,12 triệu,Ho Chi Minh,"Azure, JavaScript",Sample data for demo purposes
+Mobile Developer,Junior,9 triệu,Hanoi,"SQL, Python, Deep Learning, JavaScript, GCP",Sample data for demo purposes
+Data Analyst,Junior,7 triệu,Ho Chi Minh,"NoSQL, Kubernetes, GCP, Node.js, Java",Sample data for demo purposes
+Backend Developer,Mid-level,45 triệu,Ho Chi Minh,"SQL, Machine Learning, React, Deep Learning, Node.js",Sample data for demo purposes
+Frontend Developer,Junior,25 triệu,Ho Chi Minh,"Kubernetes, Python, Node.js, AWS, Azure",Sample data for demo purposes
+DevOps Engineer,Senior,60 triệu,Ho Chi Minh,"JavaScript, Python",Sample data for demo purposes
+QA Engineer,Senior,55 triệu,Ho Chi Minh,"React, Python, Java, GCP",Sample data for demo purposes
+Software Engineer,Junior,25 triệu,Hanoi,"Java, React, Machine Learning, SQL",Sample data for demo purposes
+Fullstack Developer,Senior,40 triệu,Ho Chi Minh,"React, GCP",Sample data for demo purposes
+Data Analyst,Junior,25 triệu,Others,"Deep Learning, JavaScript, React, AWS, Python",Sample data for demo purposes
+Mobile Developer,Mid-level,30 triệu,Ho Chi Minh,"GCP, Docker, React",Sample data for demo purposes
+Mobile Developer,Junior,18 triệu,Ho Chi Minh,"Docker, Node.js, Deep Learning, Machine Learning, Java",Sample data for demo purposes
+Data Analyst,Manager,70 triệu,Others,"JavaScript, Deep Learning, SQL",Sample data for demo purposes
+Software Engineer,Senior,50 triệu,Remote,"React, Python, JavaScript",Sample data for demo purposes
+Frontend Developer,Mid-level,40 triệu,Hanoi,"React, Docker",Sample data for demo purposes
+Data Scientist,Mid-level,20 triệu,Ho Chi Minh,"React, AWS, JavaScript, Kubernetes",Sample data for demo purposes
+Data Scientist,Senior,60 triệu,Hanoi,"Deep Learning, Node.js, React, AWS, Python",Sample data for demo purposes
+QA Engineer,Mid-level,25 triệu,Hanoi,"Python, Java, Docker, Machine Learning",Sample data for demo purposes
+Data Scientist,Senior,50 triệu,Ho Chi Minh,"Node.js, Java, Machine Learning",Sample data for demo purposes
+Data Scientist,Lead,65 triệu,Ho Chi Minh,"GCP, Docker, Kubernetes",Sample data for demo purposes
+Software Engineer,Junior,18 triệu,Da Nang,"GCP, React, Node.js, Deep Learning",Sample data for demo purposes
+Data Scientist,Senior,55 triệu,Ho Chi Minh,"SQL, Node.js",Sample data for demo purposes
+Data Scientist,Mid-level,45 triệu,Hanoi,"Java, SQL, Python, Kubernetes, NoSQL",Sample data for demo purposes
+Project Manager,Lead,75 triệu,Ho Chi Minh,"SQL, Node.js",Sample data for demo purposes
+Data Scientist,Mid-level,35 triệu,Hanoi,"Python, Machine Learning, Docker, React",Sample data for demo purposes
+Data Scientist,Mid-level,40 triệu,Hanoi,"Node.js, NoSQL, JavaScript",Sample data for demo purposes
+Backend Developer,Mid-level,25 triệu,Hanoi,"Kubernetes, AWS, JavaScript, Python, Machine Learning",Sample data for demo purposes
+Mobile Developer,Mid-level,40 triệu,Ho Chi Minh,"Deep Learning, NoSQL, React",Sample data for demo purposes
+Frontend Developer,Junior,15 triệu,Others,"React, Machine Learning, Kubernetes, Python, JavaScript",Sample data for demo purposes
+Fullstack Developer,Junior,20 triệu,Hanoi,"Machine Learning, Python, Node.js, NoSQL",Sample data for demo purposes
+DevOps Engineer,Mid-level,40 triệu,Hanoi,"Java, SQL, NoSQL",Sample data for demo purposes
+DevOps Engineer,Junior,13 triệu,Ho Chi Minh,"GCP, SQL, Java, NoSQL",Sample data for demo purposes
+Data Analyst,Senior,65 triệu,Hanoi,"Machine Learning, React",Sample data for demo purposes
+Backend Developer,Lead,85 triệu,Hanoi,"Node.js, Machine Learning",Sample data for demo purposes
+Software Engineer,Senior,70 triệu,Da Nang,"React, Kubernetes",Sample data for demo purposes
+Fullstack Developer,Mid-level,40 triệu,Hanoi,"Machine Learning, React, Docker, GCP",Sample data for demo purposes
+Data Analyst,Junior,25 triệu,Ho Chi Minh,"GCP, React, Machine Learning, SQL",Sample data for demo purposes
+Data Scientist,Junior,15 triệu,Hanoi,"Machine Learning, React, SQL, NoSQL, GCP",Sample data for demo purposes
+Mobile Developer,Senior,60 triệu,Ho Chi Minh,"NoSQL, Kubernetes, Azure, Machine Learning",Sample data for demo purposes
+Mobile Developer,Mid-level,30 triệu,Hanoi,"GCP, SQL, JavaScript",Sample data for demo purposes
+DevOps Engineer,Senior,55 triệu,Remote,"Python, SQL, Deep Learning",Sample data for demo purposes
+DevOps Engineer,Mid-level,45 triệu,Ho Chi Minh,"SQL, Kubernetes, Python, Node.js",Sample data for demo purposes
+Backend Developer,Junior,20 triệu,Ho Chi Minh,"Node.js, React, Docker",Sample data for demo purposes
+Data Scientist,Senior,65 triệu,Ho Chi Minh,"AWS, React, Kubernetes",Sample data for demo purposes
+Product Manager,Senior,50 triệu,Hanoi,"Kubernetes, Machine Learning, Java",Sample data for demo purposes
+Project Manager,Junior,25 triệu,Da Nang,"Java, Kubernetes, Deep Learning",Sample data for demo purposes
+Project Manager,Mid-level,45 triệu,Hanoi,"Node.js, Deep Learning, Java",Sample data for demo purposes
+Fullstack Developer,Senior,70 triệu,Hanoi,"Machine Learning, GCP, Node.js, NoSQL",Sample data for demo purposes
+QA Engineer,Lead,80 triệu,Da Nang,"SQL, Node.js, Azure",Sample data for demo purposes
+Project Manager,Mid-level,25 triệu,Da Nang,"Machine Learning, React, Docker, JavaScript",Sample data for demo purposes
+Data Scientist,Junior,17 triệu,Remote,"JavaScript, Deep Learning",Sample data for demo purposes
+Product Manager,Manager,85 triệu,Hanoi,"NoSQL, Machine Learning, Kubernetes, SQL",Sample data for demo purposes
+Mobile Developer,Junior,17 triệu,Hanoi,"SQL, React",Sample data for demo purposes
+Data Scientist,Junior,25 triệu,Hanoi,"Python, Kubernetes",Sample data for demo purposes
+Backend Developer,Senior,50 triệu,Hanoi,"JavaScript, Deep Learning, Node.js",Sample data for demo purposes
+Data Scientist,Mid-level,35 triệu,Hanoi,"JavaScript, AWS, Azure, React",Sample data for demo purposes
+Mobile Developer,Mid-level,45 triệu,Ho Chi Minh,"AWS, Docker, Azure",Sample data for demo purposes
+Project Manager,Junior,18 triệu,Hanoi,"Java, React, Deep Learning, JavaScript, SQL",Sample data for demo purposes
+Software Engineer,Mid-level,35 triệu,Ho Chi Minh,"SQL, Docker, Java, Python, Node.js",Sample data for demo purposes
+Data Analyst,Junior,25 triệu,Hanoi,"Deep Learning, SQL",Sample data for demo purposes
+DevOps Engineer,Senior,45 triệu,Ho Chi Minh,"GCP, React, Machine Learning, Deep Learning, Kubernetes",Sample data for demo purposes
+Product Manager,Junior,30 triệu,Ho Chi Minh,"AWS, Azure, GCP, NoSQL",Sample data for demo purposes
+Mobile Developer,Junior,16 triệu,Hanoi,"SQL, Python",Sample data for demo purposes
+Mobile Developer,Junior,19 triệu,Hanoi,"Docker, Machine Learning",Sample data for demo purposes
+Product Manager,Junior,15 triệu,Ho Chi Minh,"JavaScript, Azure, Python, NoSQL",Sample data for demo purposes
+DevOps Engineer,Junior,10 triệu,Others,"React, NoSQL, Docker",Sample data for demo purposes
+DevOps Engineer,Senior,40 triệu,Hanoi,"Kubernetes, NoSQL",Sample data for demo purposes
+Software Engineer,Senior,45 triệu,Ho Chi Minh,"Azure, GCP, Node.js, Machine Learning",Sample data for demo purposes
+DevOps Engineer,Mid-level,25 triệu,Ho Chi Minh,"Python, GCP, NoSQL",Sample data for demo purposes
+Data Analyst,Mid-level,30 triệu,Ho Chi Minh,"React, Docker, AWS",Sample data for demo purposes
+Frontend Developer,Mid-level,45 triệu,Ho Chi Minh,"Azure, React, Node.js, Kubernetes, Java",Sample data for demo purposes
+DevOps Engineer,Junior,20 triệu,Da Nang,"JavaScript, Node.js, Java",Sample data for demo purposes
+QA Engineer,Senior,55 triệu,Ho Chi Minh,"SQL, Deep Learning, NoSQL",Sample data for demo purposes
+Backend Developer,Mid-level,35 triệu,Ho Chi Minh,"React, Docker, Azure, NoSQL, SQL",Sample data for demo purposes
+DevOps Engineer,Junior,15 triệu,Ho Chi Minh,"GCP, React, Python",Sample data for demo purposes
+DevOps Engineer,Junior,20 triệu,Remote,"AWS, Machine Learning, Java",Sample data for demo purposes
+DevOps Engineer,Mid-level,30 triệu,Hanoi,"Node.js, Azure",Sample data for demo purposes
+Data Analyst,Intern,11 triệu,Hanoi,"GCP, Machine Learning, Java, SQL, JavaScript",Sample data for demo purposes
+Project Manager,Mid-level,35 triệu,Remote,"Java, Machine Learning, React, JavaScript",Sample data for demo purposes
+Backend Developer,Junior,18 triệu,Others,"Docker, JavaScript, NoSQL, SQL",Sample data for demo purposes
+Data Analyst,Senior,40 triệu,Hanoi,"GCP, Python, Docker, NoSQL, Machine Learning",Sample data for demo purposes
+DevOps Engineer,Mid-level,30 triệu,Ho Chi Minh,"JavaScript, Kubernetes",Sample data for demo purposes
+Fullstack Developer,Intern,12 triệu,Ho Chi Minh,"SQL, Java, Deep Learning, Azure",Sample data for demo purposes
+Data Analyst,Junior,13 triệu,Ho Chi Minh,"React, SQL, Azure, Java",Sample data for demo purposes
+QA Engineer,Mid-level,35 triệu,Da Nang,"NoSQL, Java",Sample data for demo purposes
+Backend Developer,Junior,25 triệu,Hanoi,"Azure, SQL",Sample data for demo purposes
+QA Engineer,Senior,40 triệu,Hanoi,"Java, Deep Learning, React",Sample data for demo purposes
+Data Scientist,Mid-level,40 triệu,Ho Chi Minh,"Machine Learning, GCP, Deep Learning",Sample data for demo purposes
+Mobile Developer,Senior,50 triệu,Hanoi,"AWS, Node.js, Machine Learning, Java",Sample data for demo purposes
+Mobile Developer,Lead,95 triệu,Hanoi,"JavaScript, Azure",Sample data for demo purposes
+Frontend Developer,Junior,18 triệu,Hanoi,"Deep Learning, Machine Learning, AWS",Sample data for demo purposes
+Mobile Developer,Senior,70 triệu,Hanoi,"Kubernetes, SQL, AWS, Node.js",Sample data for demo purposes
+Business Analyst,Junior,7 triệu,Da Nang,"Azure, React, Node.js, NoSQL, Python",Sample data for demo purposes
+Frontend Developer,Junior,10 triệu,Hanoi,"SQL, Azure, AWS, JavaScript",Sample data for demo purposes
+Software Engineer,Lead,70 triệu,Ho Chi Minh,"SQL, Node.js, NoSQL, AWS",Sample data for demo purposes
+QA Engineer,Mid-level,40 triệu,Da Nang,"GCP, Docker, AWS, React",Sample data for demo purposes
+DevOps Engineer,Manager,65 triệu,Hanoi,"SQL, Docker, Node.js, AWS",Sample data for demo purposes
+Product Manager,Junior,15 triệu,Da Nang,"NoSQL, Python, SQL, Machine Learning, Docker",Sample data for demo purposes
+Data Scientist,Mid-level,30 triệu,Da Nang,"Azure, AWS, Python",Sample data for demo purposes
+Project Manager,Senior,50 triệu,Hanoi,"NoSQL, Java",Sample data for demo purposes
+Data Scientist,Manager,135 triệu,Hanoi,"Java, Node.js, Deep Learning, Azure, React",Sample data for demo purposes
+Product Manager,Lead,70 triệu,Ho Chi Minh,"NoSQL, Azure, React, Deep Learning, JavaScript",Sample data for demo purposes
+Software Engineer,Lead,60 triệu,Hanoi,"Docker, Node.js, Python",Sample data for demo purposes
+QA Engineer,Manager,75 triệu,Hanoi,"Machine Learning, SQL, JavaScript, NoSQL",Sample data for demo purposes
+Business Analyst,Mid-level,35 triệu,Remote,"Azure, JavaScript, Deep Learning, Docker, NoSQL",Sample data for demo purposes
+QA Engineer,Manager,120 triệu,Ho Chi Minh,"Deep Learning, Node.js, SQL, JavaScript",Sample data for demo purposes
+Software Engineer,Senior,45 triệu,Ho Chi Minh,"NoSQL, React",Sample data for demo purposes
+Product Manager,Junior,11 triệu,Da Nang,"Deep Learning, JavaScript, AWS, Node.js",Sample data for demo purposes
+Product Manager,Senior,65 triệu,Ho Chi Minh,"React, Java, Machine Learning, Kubernetes",Sample data for demo purposes
+Product Manager,Mid-level,30 triệu,Ho Chi Minh,"Docker, Azure, NoSQL, AWS",Sample data for demo purposes
+Business Analyst,Senior,60 triệu,Hanoi,"GCP, NoSQL",Sample data for demo purposes
+Frontend Developer,Senior,60 triệu,Others,"NoSQL, Python, Machine Learning",Sample data for demo purposes
+Mobile Developer,Mid-level,35 triệu,Hanoi,"GCP, Node.js, Docker",Sample data for demo purposes
+Data Scientist,Mid-level,30 triệu,Da Nang,"AWS, Deep Learning, NoSQL",Sample data for demo purposes
+DevOps Engineer,Senior,55 triệu,Da Nang,"Python, Docker, NoSQL",Sample data for demo purposes
+Frontend Developer,Mid-level,35 triệu,Hanoi,"Deep Learning, Node.js",Sample data for demo purposes
+Data Analyst,Junior,19 triệu,Ho Chi Minh,"Node.js, SQL, GCP",Sample data for demo purposes
+Software Engineer,Mid-level,35 triệu,Ho Chi Minh,"Node.js, React, GCP, JavaScript",Sample data for demo purposes
+Data Analyst,Senior,65 triệu,Da Nang,"AWS, Machine Learning, Node.js, SQL",Sample data for demo purposes
+Project Manager,Junior,15 triệu,Remote,"Deep Learning, Docker",Sample data for demo purposes
+Project Manager,Senior,70 triệu,Ho Chi Minh,"AWS, NoSQL, Java, Python",Sample data for demo purposes
+Business Analyst,Mid-level,35 triệu,Ho Chi Minh,"AWS, Kubernetes, NoSQL",Sample data for demo purposes
+Data Scientist,Manager,135 triệu,Remote,"Deep Learning, NoSQL, Java",Sample data for demo purposes
+Fullstack Developer,Junior,12 triệu,Hanoi,"JavaScript, Java, NoSQL, GCP, Deep Learning",Sample data for demo purposes
+Data Analyst,Senior,45 triệu,Hanoi,"React, Machine Learning, SQL, Docker, Deep Learning",Sample data for demo purposes
+Data Scientist,Junior,18 triệu,Hanoi,"AWS, SQL, Kubernetes",Sample data for demo purposes
+QA Engineer,Mid-level,30 triệu,Hanoi,"NoSQL, SQL, Azure, Docker",Sample data for demo purposes
+Frontend Developer,Junior,7 triệu,Da Nang,"React, Kubernetes, GCP",Sample data for demo purposes
+Software Engineer,Senior,70 triệu,Da Nang,"Docker, AWS, Machine Learning, Azure, Python",Sample data for demo purposes
+DevOps Engineer,Junior,25 triệu,Ho Chi Minh,"NoSQL, Node.js, Deep Learning, Azure",Sample data for demo purposes
+Project Manager,Junior,10 triệu,Ho Chi Minh,"React, Azure, Kubernetes, Machine Learning, Deep Learning",Sample data for demo purposes
+Software Engineer,Mid-level,30 triệu,Others,"Docker, JavaScript, Java, NoSQL, SQL",Sample data for demo purposes
+DevOps Engineer,Senior,45 triệu,Ho Chi Minh,"JavaScript, GCP, Kubernetes, Python",Sample data for demo purposes
+QA Engineer,Manager,70 triệu,Hanoi,"React, AWS, Kubernetes, SQL, Deep Learning",Sample data for demo purposes
+Fullstack Developer,Senior,60 triệu,Hanoi,"Java, GCP, Azure, React",Sample data for demo purposes
+Software Engineer,Senior,65 triệu,Ho Chi Minh,"React, NoSQL, Node.js",Sample data for demo purposes
+Mobile Developer,Junior,13 triệu,Hanoi,"Kubernetes, Node.js, JavaScript",Sample data for demo purposes
+Fullstack Developer,Junior,16 triệu,Hanoi,"Kubernetes, NoSQL",Sample data for demo purposes
+Data Scientist,Junior,9 triệu,Hanoi,"JavaScript, Docker, Java, Node.js",Sample data for demo purposes
+Software Engineer,Senior,60 triệu,Hanoi,"Python, NoSQL",Sample data for demo purposes
+Data Analyst,Mid-level,35 triệu,Ho Chi Minh,"Kubernetes, NoSQL, Deep Learning, Docker",Sample data for demo purposes
+Project Manager,Lead,80 triệu,Hanoi,"JavaScript, GCP",Sample data for demo purposes
+QA Engineer,Junior,25 triệu,Ho Chi Minh,"Kubernetes, SQL, Machine Learning, Deep Learning, Python",Sample data for demo purposes
+DevOps Engineer,Junior,18 triệu,Ho Chi Minh,"GCP, SQL, Python, Deep Learning",Sample data for demo purposes
+Product Manager,Junior,12 triệu,Da Nang,"SQL, Docker, Python, AWS, JavaScript",Sample data for demo purposes
+Data Scientist,Manager,145 triệu,Da Nang,"React, SQL",Sample data for demo purposes
+Product Manager,Senior,70 triệu,Ho Chi Minh,"React, AWS, Docker, JavaScript",Sample data for demo purposes
+Mobile Developer,Manager,75 triệu,Ho Chi Minh,"Java, Kubernetes, SQL, Machine Learning, NoSQL",Sample data for demo purposes
+Backend Developer,Manager,90 triệu,Ho Chi Minh,"SQL, AWS, React, Java, Machine Learning",Sample data for demo purposes
+Backend Developer,Senior,55 triệu,Hanoi,"Docker, JavaScript",Sample data for demo purposes
+Product Manager,Junior,13 triệu,Ho Chi Minh,"Python, Kubernetes, React, JavaScript, Deep Learning",Sample data for demo purposes
+Data Analyst,Senior,50 triệu,Hanoi,"Node.js, JavaScript",Sample data for demo purposes
+Software Engineer,Mid-level,40 triệu,Ho Chi Minh,"GCP, Java",Sample data for demo purposes
+Project Manager,Mid-level,45 triệu,Hanoi,"NoSQL, Python",Sample data for demo purposes
+Project Manager,Intern,9 triệu,Ho Chi Minh,"Java, GCP",Sample data for demo purposes
+Mobile Developer,Manager,135 triệu,Ho Chi Minh,"Node.js, SQL, Azure",Sample data for demo purposes
+Frontend Developer,Mid-level,40 triệu,Hanoi,"Python, React, GCP, Machine Learning",Sample data for demo purposes
+Frontend Developer,Senior,55 triệu,Ho Chi Minh,"Azure, Java, Docker, Python, SQL",Sample data for demo purposes
+Data Scientist,Mid-level,35 triệu,Ho Chi Minh,"GCP, Node.js",Sample data for demo purposes
+Data Scientist,Mid-level,30 triệu,Hanoi,"Machine Learning, React, JavaScript, Python",Sample data for demo purposes
+Product Manager,Senior,55 triệu,Hanoi,"Node.js, GCP, Azure, SQL, Docker",Sample data for demo purposes
+DevOps Engineer,Mid-level,30 triệu,Ho Chi Minh,"GCP, Java, NoSQL, Azure, Kubernetes",Sample data for demo purposes
+Data Analyst,Mid-level,30 triệu,Others,"Machine Learning, Java, AWS, Python, Deep Learning",Sample data for demo purposes
+Backend Developer,Senior,55 triệu,Hanoi,"NoSQL, Python, JavaScript, Kubernetes",Sample data for demo purposes
+Frontend Developer,Mid-level,30 triệu,Hanoi,"Machine Learning, Java, React",Sample data for demo purposes
+Project Manager,Senior,45 triệu,Ho Chi Minh,"React, Azure, SQL, Docker, Node.js",Sample data for demo purposes
+Data Scientist,Mid-level,30 triệu,Others,"Azure, SQL, Kubernetes, Node.js, Python",Sample data for demo purposes
+QA Engineer,Junior,19 triệu,Da Nang,"Deep Learning, GCP, Kubernetes, Docker",Sample data for demo purposes
+Frontend Developer,Mid-level,30 triệu,Ho Chi Minh,"Python, React",Sample data for demo purposes
+Business Analyst,Mid-level,40 triệu,Ho Chi Minh,"SQL, Azure, Kubernetes, Deep Learning",Sample data for demo purposes
+Product Manager,Mid-level,25 triệu,Ho Chi Minh,"AWS, Azure",Sample data for demo purposes
+Fullstack Developer,Mid-level,35 triệu,Ho Chi Minh,"Java, SQL, NoSQL",Sample data for demo purposes
+Backend Developer,Junior,20 triệu,Ho Chi Minh,"GCP, SQL",Sample data for demo purposes
+Project Manager,Mid-level,30 triệu,Remote,"Docker, AWS",Sample data for demo purposes
+Backend Developer,Junior,25 triệu,Ho Chi Minh,"Deep Learning, GCP, Java, NoSQL",Sample data for demo purposes
+DevOps Engineer,Mid-level,30 triệu,Hanoi,"Kubernetes, React, Docker",Sample data for demo purposes
+Mobile Developer,Senior,65 triệu,Hanoi,"Azure, React, Machine Learning, AWS, NoSQL",Sample data for demo purposes
+Data Analyst,Mid-level,40 triệu,Ho Chi Minh,"JavaScript, Machine Learning, GCP",Sample data for demo purposes
+Project Manager,Lead,75 triệu,Ho Chi Minh,"NoSQL, AWS, Node.js",Sample data for demo purposes
+Data Scientist,Mid-level,35 triệu,Da Nang,"Azure, Kubernetes, Deep Learning, Docker, Node.js",Sample data for demo purposes
+Mobile Developer,Junior,20 triệu,Ho Chi Minh,"SQL, NoSQL, GCP, Java",Sample data for demo purposes
+Fullstack Developer,Mid-level,45 triệu,Da Nang,"Azure, Java",Sample data for demo purposes
+Backend Developer,Mid-level,45 triệu,Hanoi,"NoSQL, JavaScript, Java, AWS",Sample data for demo purposes
+DevOps Engineer,Senior,60 triệu,Others,"GCP, Kubernetes, Python, Azure",Sample data for demo purposes
+Data Scientist,Senior,60 triệu,Hanoi,"Machine Learning, SQL, React",Sample data for demo purposes
+Software Engineer,Junior,25 triệu,Ho Chi Minh,"NoSQL, AWS",Sample data for demo purposes
+DevOps Engineer,Junior,19 triệu,Ho Chi Minh,"Azure, Docker, Kubernetes, Deep Learning, Node.js",Sample data for demo purposes
+DevOps Engineer,Lead,80 triệu,Ho Chi Minh,"Deep Learning, Python",Sample data for demo purposes
+Frontend Developer,Mid-level,30 triệu,Ho Chi Minh,"AWS, JavaScript, SQL",Sample data for demo purposes
+Product Manager,Mid-level,40 triệu,Ho Chi Minh,"Java, Node.js, Azure, Deep Learning",Sample data for demo purposes
+Business Analyst,Manager,70 triệu,Ho Chi Minh,"AWS, React, JavaScript, Kubernetes",Sample data for demo purposes
+Backend Developer,Mid-level,30 triệu,Ho Chi Minh,"React, Java, Deep Learning",Sample data for demo purposes
+Data Analyst,Mid-level,30 triệu,Ho Chi Minh,"Azure, Node.js, GCP, AWS, Machine Learning",Sample data for demo purposes
+Mobile Developer,Mid-level,35 triệu,Ho Chi Minh,"GCP, Python, Kubernetes",Sample data for demo purposes
+Mobile Developer,Junior,18 triệu,Ho Chi Minh,"AWS, Java, JavaScript",Sample data for demo purposes
+Data Analyst,Junior,17 triệu,Hanoi,"React, SQL, Python, Azure",Sample data for demo purposes
+Data Scientist,Senior,75 triệu,Hanoi,"Java, GCP",Sample data for demo purposes
+Backend Developer,Senior,40 triệu,Hanoi,"NoSQL, Java, Azure, Machine Learning, Python",Sample data for demo purposes
+Product Manager,Senior,50 triệu,Ho Chi Minh,"NoSQL, Deep Learning, React, SQL",Sample data for demo purposes
+QA Engineer,Lead,70 triệu,Hanoi,"Java, Python",Sample data for demo purposes
+QA Engineer,Senior,55 triệu,Ho Chi Minh,"NoSQL, Deep Learning, AWS",Sample data for demo purposes
+DevOps Engineer,Manager,120 triệu,Ho Chi Minh,"AWS, JavaScript, GCP, Deep Learning",Sample data for demo purposes
+DevOps Engineer,Junior,18 triệu,Da Nang,"Deep Learning, Azure, AWS, Python",Sample data for demo purposes
+Fullstack Developer,Senior,70 triệu,Ho Chi Minh,"GCP, Azure, Deep Learning, React, Python",Sample data for demo purposes
+QA Engineer,Mid-level,30 triệu,Ho Chi Minh,"React, Python",Sample data for demo purposes
+Software Engineer,Manager,145 triệu,Da Nang,"Deep Learning, React, Python",Sample data for demo purposes
+Mobile Developer,Senior,65 triệu,Ho Chi Minh,"Machine Learning, SQL, Kubernetes",Sample data for demo purposes
+Backend Developer,Intern,10 triệu,Hanoi,"Deep Learning, Node.js, AWS, Azure, Machine Learning",Sample data for demo purposes
+DevOps Engineer,Junior,18 triệu,Ho Chi Minh,"Kubernetes, SQL",Sample data for demo purposes
+Backend Developer,Mid-level,25 triệu,Ho Chi Minh,"Machine Learning, SQL, Docker, AWS",Sample data for demo purposes
+Software Engineer,Junior,20 triệu,Ho Chi Minh,"Java, React, Python",Sample data for demo purposes
+Business Analyst,Junior,18 triệu,Hanoi,"React, SQL, NoSQL, Machine Learning",Sample data for demo purposes
+Frontend Developer,Senior,35 triệu,Ho Chi Minh,"Azure, GCP, SQL, Kubernetes, NoSQL",Sample data for demo purposes
+Data Analyst,Mid-level,25 triệu,Ho Chi Minh,"Kubernetes, Java, NoSQL, React, Azure",Sample data for demo purposes
+Business Analyst,Junior,20 triệu,Ho Chi Minh,"Kubernetes, NoSQL, Machine Learning, GCP, Node.js",Sample data for demo purposes
+Mobile Developer,Senior,50 triệu,Hanoi,"GCP, Python, SQL",Sample data for demo purposes
+QA Engineer,Senior,40 triệu,Hanoi,"Python, Deep Learning, Java, AWS",Sample data for demo purposes
+Mobile Developer,Mid-level,30 triệu,Hanoi,"Kubernetes, JavaScript, React, SQL",Sample data for demo purposes
+Data Analyst,Junior,10 triệu,Ho Chi Minh,"GCP, JavaScript, React, Azure, Java",Sample data for demo purposes
+Mobile Developer,Mid-level,35 triệu,Hanoi,"Deep Learning, Python, SQL, Machine Learning, JavaScript",Sample data for demo purposes
+Project Manager,Junior,8 triệu,Ho Chi Minh,"Docker, Kubernetes",Sample data for demo purposes
+Data Analyst,Senior,55 triệu,Hanoi,"Machine Learning, React, Azure",Sample data for demo purposes
+Product Manager,Intern,11 triệu,Ho Chi Minh,"AWS, React, Machine Learning, NoSQL, Kubernetes",Sample data for demo purposes
+Business Analyst,Mid-level,35 triệu,Ho Chi Minh,"Java, AWS, GCP",Sample data for demo purposes
+Software Engineer,Mid-level,35 triệu,Da Nang,"Docker, Machine Learning, SQL",Sample data for demo purposes
+Data Analyst,Junior,13 triệu,Ho Chi Minh,"SQL, Java, JavaScript",Sample data for demo purposes
+Frontend Developer,Mid-level,25 triệu,Others,"Java, Machine Learning, AWS, Node.js",Sample data for demo purposes
+Product Manager,Mid-level,35 triệu,Ho Chi Minh,"GCP, AWS, React",Sample data for demo purposes
+DevOps Engineer,Mid-level,30 triệu,Ho Chi Minh,"Node.js, Python, JavaScript, GCP",Sample data for demo purposes
+Frontend Developer,Lead,75 triệu,Hanoi,"Docker, GCP, Deep Learning, NoSQL, Python",Sample data for demo purposes
+DevOps Engineer,Mid-level,45 triệu,Hanoi,"Node.js, Python",Sample data for demo purposes
+Product Manager,Junior,20 triệu,Others,"NoSQL, Deep Learning, Java, React, JavaScript",Sample data for demo purposes
+Data Scientist,Intern,10 triệu,Da Nang,"Azure, Node.js, JavaScript, Java, Deep Learning",Sample data for demo purposes
+QA Engineer,Mid-level,40 triệu,Hanoi,"Python, React",Sample data for demo purposes
+Frontend Developer,Mid-level,40 triệu,Hanoi,"Kubernetes, Python, Node.js, AWS, React",Sample data for demo purposes
+Project Manager,Junior,25 triệu,Ho Chi Minh,"GCP, AWS",Sample data for demo purposes
+Software Engineer,Mid-level,40 triệu,Hanoi,"NoSQL, React, Kubernetes, Azure, Docker",Sample data for demo purposes
+Business Analyst,Mid-level,25 triệu,Hanoi,"Deep Learning, Node.js, Machine Learning",Sample data for demo purposes
+Product Manager,Mid-level,35 triệu,Hanoi,"JavaScript, Kubernetes, Azure",Sample data for demo purposes
+Backend Developer,Mid-level,30 triệu,Ho Chi Minh,"JavaScript, GCP, Deep Learning, NoSQL",Sample data for demo purposes
+Mobile Developer,Senior,55 triệu,Ho Chi Minh,"Docker, GCP, NoSQL, JavaScript",Sample data for demo purposes
+Fullstack Developer,Junior,20 triệu,Hanoi,"Java, Deep Learning",Sample data for demo purposes
+Fullstack Developer,Senior,60 triệu,Others,"Docker, Machine Learning, AWS, Kubernetes",Sample data for demo purposes
+Business Analyst,Mid-level,30 triệu,Hanoi,"Python, Kubernetes",Sample data for demo purposes
+Software Engineer,Senior,65 triệu,Remote,"Azure, Machine Learning, NoSQL, Kubernetes",Sample data for demo purposes
+Fullstack Developer,Junior,25 triệu,Hanoi,"Node.js, Python, SQL, Machine Learning",Sample data for demo purposes
+Backend Developer,Mid-level,40 triệu,Remote,"React, Azure",Sample data for demo purposes
+Software Engineer,Senior,45 triệu,Hanoi,"Java, React, JavaScript",Sample data for demo purposes
+Backend Developer,Junior,14 triệu,Ho Chi Minh,"React, Java",Sample data for demo purposes
+Fullstack Developer,Mid-level,25 triệu,Remote,"Docker, SQL, Kubernetes, React",Sample data for demo purposes
+Mobile Developer,Senior,55 triệu,Ho Chi Minh,"Docker, Kubernetes",Sample data for demo purposes
+Backend Developer,Senior,65 triệu,Ho Chi Minh,"Kubernetes, Azure, Node.js, SQL",Sample data for demo purposes
+Frontend Developer,Lead,85 triệu,Ho Chi Minh,"SQL, Node.js, Python",Sample data for demo purposes
+QA Engineer,Senior,65 triệu,Ho Chi Minh,"Java, SQL, Kubernetes, Machine Learning",Sample data for demo purposes
+Mobile Developer,Junior,10 triệu,Hanoi,"Python, Node.js, JavaScript, Azure, Docker",Sample data for demo purposes
+Data Scientist,Mid-level,30 triệu,Remote,"JavaScript, Node.js, Docker, Deep Learning",Sample data for demo purposes
+Software Engineer,Mid-level,40 triệu,Ho Chi Minh,"Java, Azure, SQL, Kubernetes, Deep Learning",Sample data for demo purposes
+Fullstack Developer,Senior,40 triệu,Da Nang,"Python, Kubernetes",Sample data for demo purposes
+Business Analyst,Mid-level,40 triệu,Hanoi,"NoSQL, JavaScript, Java, AWS, Kubernetes",Sample data for demo purposes
+Business Analyst,Senior,70 triệu,Hanoi,"Docker, React, Deep Learning, Java, SQL",Sample data for demo purposes
+QA Engineer,Junior,20 triệu,Hanoi,"GCP, Python, Docker",Sample data for demo purposes
+DevOps Engineer,Mid-level,40 triệu,Hanoi,"Deep Learning, Docker, Kubernetes, Python, Node.js",Sample data for demo purposes
+Project Manager,Mid-level,30 triệu,Ho Chi Minh,"Docker, Azure, NoSQL, Python, Machine Learning",Sample data for demo purposes
+Software Engineer,Senior,50 triệu,Ho Chi Minh,"Machine Learning, Deep Learning",Sample data for demo purposes
+Business Analyst,Senior,65 triệu,Hanoi,"JavaScript, NoSQL",Sample data for demo purposes
+Mobile Developer,Senior,60 triệu,Ho Chi Minh,"Azure, Machine Learning",Sample data for demo purposes
+Frontend Developer,Senior,45 triệu,Hanoi,"SQL, GCP, React",Sample data for demo purposes
+DevOps Engineer,Mid-level,40 triệu,Ho Chi Minh,"Java, Python, Machine Learning, Node.js, SQL",Sample data for demo purposes
+Fullstack Developer,Mid-level,35 triệu,Hanoi,"Node.js, Machine Learning",Sample data for demo purposes
+Business Analyst,Mid-level,40 triệu,Ho Chi Minh,"Kubernetes, NoSQL, GCP",Sample data for demo purposes
+Project Manager,Mid-level,40 triệu,Ho Chi Minh,"JavaScript, Azure, Docker",Sample data for demo purposes
+Backend Developer,Senior,50 triệu,Others,"SQL, React, Kubernetes",Sample data for demo purposes
+QA Engineer,Mid-level,30 triệu,Hanoi,"AWS, Kubernetes",Sample data for demo purposes
+Frontend Developer,Mid-level,45 triệu,Ho Chi Minh,"Docker, Java, Node.js, Deep Learning",Sample data for demo purposes
+Mobile Developer,Mid-level,30 triệu,Ho Chi Minh,"Kubernetes, Deep Learning, Docker",Sample data for demo purposes
+Data Analyst,Senior,50 triệu,Ho Chi Minh,"Deep Learning, Machine Learning, NoSQL, Node.js",Sample data for demo purposes
+Data Analyst,Senior,60 triệu,Ho Chi Minh,"SQL, Node.js, Python",Sample data for demo purposes
+DevOps Engineer,Senior,40 triệu,Hanoi,"NoSQL, Deep Learning, Python, Kubernetes, Machine Learning",Sample data for demo purposes
+Data Analyst,Senior,60 triệu,Ho Chi Minh,"AWS, Azure, JavaScript",Sample data for demo purposes
+Business Analyst,Mid-level,35 triệu,Ho Chi Minh,"GCP, Machine Learning, SQL, AWS",Sample data for demo purposes
+Mobile Developer,Senior,40 triệu,Ho Chi Minh,"Node.js, Machine Learning, Deep Learning, Kubernetes",Sample data for demo purposes
+QA Engineer,Mid-level,40 triệu,Hanoi,"SQL, Machine Learning, Azure, Docker",Sample data for demo purposes
+Software Engineer,Mid-level,30 triệu,Da Nang,"Python, React, Node.js, Docker, Deep Learning",Sample data for demo purposes
+QA Engineer,Senior,60 triệu,Ho Chi Minh,"JavaScript, Docker, Kubernetes, Azure",Sample data for demo purposes
+Frontend Developer,Manager,135 triệu,Da Nang,"React, Azure",Sample data for demo purposes
+DevOps Engineer,Mid-level,30 triệu,Ho Chi Minh,"SQL, Deep Learning",Sample data for demo purposes
+Backend Developer,Senior,45 triệu,Ho Chi Minh,"React, AWS, Machine Learning",Sample data for demo purposes
+Backend Developer,Lead,70 triệu,Hanoi,"JavaScript, Azure",Sample data for demo purposes
+DevOps Engineer,Senior,50 triệu,Ho Chi Minh,"Node.js, AWS",Sample data for demo purposes
+Software Engineer,Intern,9 triệu,Ho Chi Minh,"Azure, GCP",Sample data for demo purposes
+Frontend Developer,Mid-level,35 triệu,Ho Chi Minh,"NoSQL, Deep Learning, Machine Learning, Python",Sample data for demo purposes
+Fullstack Developer,Mid-level,50 triệu,Hanoi,"Azure, Machine Learning, AWS, Docker",Sample data for demo purposes
+Data Scientist,Junior,15 triệu,Da Nang,"Python, Machine Learning, NoSQL",Sample data for demo purposes
+Mobile Developer,Intern,10 triệu,Da Nang,"NoSQL, Machine Learning, Docker, Node.js, JavaScript",Sample data for demo purposes
+Product Manager,Junior,25 triệu,Ho Chi Minh,"Deep Learning, Kubernetes, React, SQL, NoSQL",Sample data for demo purposes
+Data Analyst,Junior,9 triệu,Ho Chi Minh,"React, Machine Learning, Node.js, Kubernetes",Sample data for demo purposes
+Software Engineer,Junior,14 triệu,Hanoi,"SQL, Machine Learning",Sample data for demo purposes
+Frontend Developer,Senior,50 triệu,Ho Chi Minh,"Python, React",Sample data for demo purposes
+Product Manager,Junior,17 triệu,Others,"Machine Learning, Azure",Sample data for demo purposes
+Backend Developer,Senior,55 triệu,Ho Chi Minh,"Deep Learning, JavaScript, NoSQL",Sample data for demo purposes
+QA Engineer,Senior,55 triệu,Ho Chi Minh,"JavaScript, Deep Learning, Kubernetes",Sample data for demo purposes
+Software Engineer,Junior,25 triệu,Hanoi,"Python, AWS, Java, GCP, SQL",Sample data for demo purposes
+DevOps Engineer,Intern,9 triệu,Ho Chi Minh,"Kubernetes, Docker, React, Python",Sample data for demo purposes
+Data Analyst,Intern,11 triệu,Ho Chi Minh,"React, Java, Machine Learning, Deep Learning",Sample data for demo purposes
+Product Manager,Junior,18 triệu,Da Nang,"Azure, Docker, SQL",Sample data for demo purposes
+Fullstack Developer,Senior,55 triệu,Hanoi,"Docker, AWS, Azure, Kubernetes, JavaScript",Sample data for demo purposes
+Frontend Developer,Mid-level,35 triệu,Hanoi,"JavaScript, Azure, SQL, React",Sample data for demo purposes
+Software Engineer,Mid-level,40 triệu,Da Nang,"Node.js, React, AWS",Sample data for demo purposes
+Software Engineer,Senior,45 triệu,Ho Chi Minh,"AWS, Node.js, Java, React",Sample data for demo purposes
+Data Scientist,Junior,7 triệu,Hanoi,"Python, Java",Sample data for demo purposes
+DevOps Engineer,Junior,13 triệu,Ho Chi Minh,"Java, Python, Kubernetes, Machine Learning, Node.js",Sample data for demo purposes
+Project Manager,Mid-level,35 triệu,Ho Chi Minh,"Deep Learning, Azure, GCP, Node.js",Sample data for demo purposes
+QA Engineer,Mid-level,35 triệu,Ho Chi Minh,"Java, Machine Learning, Node.js",Sample data for demo purposes
+Frontend Developer,Senior,40 triệu,Ho Chi Minh,"Docker, Azure",Sample data for demo purposes
+Software Engineer,Lead,90 triệu,Hanoi,"React, Azure",Sample data for demo purposes
+Backend Developer,Senior,65 triệu,Remote,"Node.js, Python",Sample data for demo purposes
+Fullstack Developer,Senior,55 triệu,Ho Chi Minh,"AWS, Azure, GCP",Sample data for demo purposes
+Data Analyst,Senior,40 triệu,Hanoi,"Kubernetes, Machine Learning",Sample data for demo purposes
+Frontend Developer,Senior,40 triệu,Da Nang,"NoSQL, GCP, Node.js",Sample data for demo purposes
+Software Engineer,Manager,85 triệu,Hanoi,"Kubernetes, Node.js, Machine Learning",Sample data for demo purposes
+Frontend Developer,Senior,70 triệu,Hanoi,"AWS, Java, JavaScript, NoSQL, Docker",Sample data for demo purposes
+Business Analyst,Mid-level,30 triệu,Da Nang,"JavaScript, Kubernetes, Python, AWS, Deep Learning",Sample data for demo purposes
+Data Scientist,Junior,14 triệu,Ho Chi Minh,"Azure, NoSQL, Kubernetes, Machine Learning",Sample data for demo purposes
+Mobile Developer,Mid-level,40 triệu,Ho Chi Minh,"SQL, Node.js",Sample data for demo purposes
+Data Analyst,Mid-level,35 triệu,Ho Chi Minh,"GCP, Java, AWS",Sample data for demo purposes
+Data Scientist,Senior,40 triệu,Hanoi,"Azure, Docker, SQL",Sample data for demo purposes
+Backend Developer,Mid-level,35 triệu,Da Nang,"Deep Learning, Docker",Sample data for demo purposes
+Mobile Developer,Senior,50 triệu,Ho Chi Minh,"React, GCP, Node.js, Kubernetes, AWS",Sample data for demo purposes
+Software Engineer,Mid-level,50 triệu,Ho Chi Minh,"Kubernetes, AWS, NoSQL, Python, Deep Learning",Sample data for demo purposes
+QA Engineer,Senior,55 triệu,Da Nang,"Machine Learning, Azure",Sample data for demo purposes
+Project Manager,Junior,20 triệu,Ho Chi Minh,"Kubernetes, AWS",Sample data for demo purposes
+Data Analyst,Junior,18 triệu,Ho Chi Minh,"Azure, Docker",Sample data for demo purposes
+Mobile Developer,Mid-level,30 triệu,Hanoi,"Deep Learning, Kubernetes, Java, React",Sample data for demo purposes
+QA Engineer,Junior,7 triệu,Hanoi,"Kubernetes, NoSQL",Sample data for demo purposes
+Project Manager,Mid-level,30 triệu,Hanoi,"Deep Learning, React, AWS, NoSQL",Sample data for demo purposes
+Fullstack Developer,Junior,14 triệu,Ho Chi Minh,"Node.js, Kubernetes, Deep Learning, GCP, NoSQL",Sample data for demo purposes
+DevOps Engineer,Junior,17 triệu,Da Nang,"React, Node.js",Sample data for demo purposes
+Fullstack Developer,Senior,50 triệu,Da Nang,"SQL, GCP, Machine Learning",Sample data for demo purposes
+Product Manager,Junior,12 triệu,Remote,"GCP, Docker, Machine Learning",Sample data for demo purposes
+Data Analyst,Senior,60 triệu,Ho Chi Minh,"Python, Kubernetes, JavaScript",Sample data for demo purposes
+Data Scientist,Junior,25 triệu,Ho Chi Minh,"GCP, Kubernetes",Sample data for demo purposes
+Frontend Developer,Senior,45 triệu,Ho Chi Minh,"AWS, Machine Learning",Sample data for demo purposes
+Mobile Developer,Junior,20 triệu,Remote,"SQL, NoSQL, Node.js, React",Sample data for demo purposes
+Fullstack Developer,Mid-level,40 triệu,Hanoi,"Kubernetes, Docker, NoSQL",Sample data for demo purposes
+Project Manager,Senior,70 triệu,Da Nang,"Python, JavaScript, NoSQL",Sample data for demo purposes
+Mobile Developer,Mid-level,30 triệu,Da Nang,"JavaScript, Kubernetes",Sample data for demo purposes
+Project Manager,Mid-level,40 triệu,Hanoi,"Docker, JavaScript, Java",Sample data for demo purposes
+Fullstack Developer,Senior,65 triệu,Hanoi,"Deep Learning, React",Sample data for demo purposes
+Backend Developer,Mid-level,25 triệu,Hanoi,"NoSQL, Azure, React, GCP",Sample data for demo purposes
+QA Engineer,Junior,11 triệu,Ho Chi Minh,"JavaScript, Deep Learning, Kubernetes",Sample data for demo purposes
+Product Manager,Senior,75 triệu,Hanoi,"AWS, JavaScript, Java",Sample data for demo purposes
+Project Manager,Mid-level,45 triệu,Ho Chi Minh,"Deep Learning, Azure, NoSQL, SQL, Java",Sample data for demo purposes
+Business Analyst,Junior,6 triệu,Ho Chi Minh,"Node.js, SQL, Docker",Sample data for demo purposes
+DevOps Engineer,Senior,60 triệu,Ho Chi Minh,"Node.js, AWS, React",Sample data for demo purposes
+Project Manager,Mid-level,20 triệu,Da Nang,"NoSQL, Python, Java, SQL",Sample data for demo purposes
+Data Analyst,Junior,17 triệu,Hanoi,"React, Deep Learning, Docker, JavaScript, Kubernetes",Sample data for demo purposes
+Data Analyst,Mid-level,45 triệu,Ho Chi Minh,"Azure, AWS, Deep Learning, Java",Sample data for demo purposes
+QA Engineer,Senior,55 triệu,Remote,"Kubernetes, Python, GCP, React",Sample data for demo purposes
+QA Engineer,Senior,65 triệu,Ho Chi Minh,"JavaScript, AWS, SQL, Deep Learning",Sample data for demo purposes
+Data Scientist,Lead,80 triệu,Da Nang,"Azure, GCP, Machine Learning",Sample data for demo purposes
+Project Manager,Junior,17 triệu,Ho Chi Minh,"Deep Learning, Java",Sample data for demo purposes
+Data Scientist,Senior,60 triệu,Hanoi,"Azure, Node.js, SQL, Kubernetes",Sample data for demo purposes
+Data Analyst,Mid-level,30 triệu,Ho Chi Minh,"Machine Learning, Java",Sample data for demo purposes
+Data Scientist,Mid-level,45 triệu,Ho Chi Minh,"Java, Kubernetes",Sample data for demo purposes
+Mobile Developer,Mid-level,40 triệu,Hanoi,"AWS, NoSQL, Kubernetes, Python",Sample data for demo purposes
+Product Manager,Mid-level,45 triệu,Ho Chi Minh,"Kubernetes, Deep Learning",Sample data for demo purposes
+Project Manager,Mid-level,35 triệu,Hanoi,"SQL, GCP",Sample data for demo purposes
+Backend Developer,Mid-level,25 triệu,Da Nang,"GCP, Python, JavaScript, Node.js, Docker",Sample data for demo purposes
+Data Scientist,Mid-level,30 triệu,Remote,"AWS, Node.js, Kubernetes",Sample data for demo purposes
+Fullstack Developer,Senior,40 triệu,Others,"Kubernetes, Java",Sample data for demo purposes
+Frontend Developer,Intern,10 triệu,Hanoi,"Docker, React, Kubernetes",Sample data for demo purposes
+Data Scientist,Mid-level,45 triệu,Hanoi,"SQL, AWS",Sample data for demo purposes
+DevOps Engineer,Mid-level,30 triệu,Hanoi,"Kubernetes, GCP",Sample data for demo purposes
+Project Manager,Junior,19 triệu,Hanoi,"Azure, Docker, Kubernetes",Sample data for demo purposes
+Frontend Developer,Senior,60 triệu,Ho Chi Minh,"Docker, Azure, SQL",Sample data for demo purposes
+QA Engineer,Junior,25 triệu,Remote,"NoSQL, Docker",Sample data for demo purposes
+Mobile Developer,Junior,17 triệu,Ho Chi Minh,"Python, AWS, GCP, Azure, JavaScript",Sample data for demo purposes
+Data Analyst,Junior,13 triệu,Ho Chi Minh,"Machine Learning, SQL",Sample data for demo purposes
+Software Engineer,Mid-level,35 triệu,Ho Chi Minh,"GCP, Machine Learning, Python, Deep Learning",Sample data for demo purposes
+Frontend Developer,Intern,8 triệu,Ho Chi Minh,"Java, Azure, Node.js, GCP",Sample data for demo purposes
+Data Scientist,Senior,65 triệu,Hanoi,"AWS, GCP, Python",Sample data for demo purposes
+DevOps Engineer,Senior,50 triệu,Ho Chi Minh,"Kubernetes, AWS, Node.js, Docker",Sample data for demo purposes
+Project Manager,Intern,10 triệu,Hanoi,"NoSQL, Machine Learning, Docker, Kubernetes, React",Sample data for demo purposes
+Software Engineer,Junior,8 triệu,Ho Chi Minh,"Kubernetes, JavaScript, AWS",Sample data for demo purposes
+Data Analyst,Mid-level,25 triệu,Ho Chi Minh,"Azure, GCP, Deep Learning, Docker, React",Sample data for demo purposes
+DevOps Engineer,Junior,25 triệu,Ho Chi Minh,"Kubernetes, JavaScript, React, Azure",Sample data for demo purposes
+Backend Developer,Mid-level,35 triệu,Ho Chi Minh,"Node.js, GCP, Kubernetes, Java, JavaScript",Sample data for demo purposes
+Mobile Developer,Intern,8 triệu,Remote,"GCP, Python, JavaScript",Sample data for demo purposes
+Fullstack Developer,Manager,120 triệu,Ho Chi Minh,"AWS, JavaScript, Java",Sample data for demo purposes
+Frontend Developer,Senior,60 triệu,Da Nang,"Machine Learning, NoSQL, Docker, Python",Sample data for demo purposes
+Project Manager,Mid-level,20 triệu,Ho Chi Minh,"Deep Learning, Java, JavaScript",Sample data for demo purposes
+Backend Developer,Intern,8 triệu,Ho Chi Minh,"Node.js, Kubernetes, Deep Learning",Sample data for demo purposes
+Backend Developer,Intern,9 triệu,Ho Chi Minh,"Java, Docker, SQL",Sample data for demo purposes
+Data Scientist,Senior,35 triệu,Ho Chi Minh,"Azure, Kubernetes, SQL, NoSQL",Sample data for demo purposes
+Frontend Developer,Mid-level,35 triệu,Others,"Java, GCP",Sample data for demo purposes
+Mobile Developer,Manager,125 triệu,Ho Chi Minh,"React, Docker, GCP, Deep Learning",Sample data for demo purposes
+Product Manager,Mid-level,35 triệu,Hanoi,"Docker, Machine Learning, Deep Learning",Sample data for demo purposes
+Data Scientist,Junior,25 triệu,Ho Chi Minh,"Java, Machine Learning, Node.js, SQL",Sample data for demo purposes
+QA Engineer,Mid-level,45 triệu,Ho Chi Minh,"SQL, AWS, Azure, Kubernetes, JavaScript",Sample data for demo purposes
+Data Analyst,Junior,25 triệu,Ho Chi Minh,"Docker, Deep Learning, SQL, Java",Sample data for demo purposes
+Software Engineer,Senior,65 triệu,Remote,"React, GCP",Sample data for demo purposes
+Data Analyst,Mid-level,40 triệu,Others,"Python, JavaScript, Kubernetes, NoSQL, SQL",Sample data for demo purposes
+Software Engineer,Junior,15 triệu,Hanoi,"GCP, Kubernetes, Machine Learning",Sample data for demo purposes
+Data Analyst,Mid-level,45 triệu,Hanoi,"JavaScript, AWS, Java, Deep Learning",Sample data for demo purposes
+Fullstack Developer,Mid-level,19 triệu,Hanoi,"JavaScript, AWS",Sample data for demo purposes
+QA Engineer,Junior,20 triệu,Ho Chi Minh,"Machine Learning, React",Sample data for demo purposes
+Product Manager,Intern,9 triệu,Hanoi,"Deep Learning, Azure, React, JavaScript",Sample data for demo purposes
+Backend Developer,Senior,75 triệu,Remote,"JavaScript, Azure, Python",Sample data for demo purposes
+Product Manager,Junior,25 triệu,Hanoi,"NoSQL, Azure",Sample data for demo purposes
+Data Scientist,Mid-level,25 triệu,Hanoi,"AWS, Kubernetes",Sample data for demo purposes
+DevOps Engineer,Mid-level,35 triệu,Hanoi,"GCP, AWS, Java",Sample data for demo purposes
+Product Manager,Junior,25 triệu,Ho Chi Minh,"SQL, React, Deep Learning, NoSQL",Sample data for demo purposes
+Project Manager,Manager,155 triệu,Ho Chi Minh,"Node.js, Azure",Sample data for demo purposes
+Product Manager,Mid-level,40 triệu,Da Nang,"GCP, Deep Learning, JavaScript, Machine Learning, React",Sample data for demo purposes
+Fullstack Developer,Mid-level,40 triệu,Hanoi,"GCP, Deep Learning, NoSQL, React, Kubernetes",Sample data for demo purposes
+Software Engineer,Lead,70 triệu,Ho Chi Minh,"JavaScript, Azure, Machine Learning",Sample data for demo purposes
+Frontend Developer,Senior,45 triệu,Hanoi,"GCP, Python, Java, SQL",Sample data for demo purposes
+Backend Developer,Mid-level,30 triệu,Ho Chi Minh,"SQL, Python, Machine Learning, React, Java",Sample data for demo purposes
+Fullstack Developer,Junior,25 triệu,Remote,"AWS, JavaScript, React, Kubernetes",Sample data for demo purposes
+Fullstack Developer,Junior,18 triệu,Others,"Node.js, Azure",Sample data for demo purposes
+Data Analyst,Mid-level,45 triệu,Ho Chi Minh,"JavaScript, Java, Azure",Sample data for demo purposes
+Data Scientist,Mid-level,40 triệu,Hanoi,"Kubernetes, React, Deep Learning, AWS, SQL",Sample data for demo purposes
+Backend Developer,Senior,35 triệu,Ho Chi Minh,"Machine Learning, JavaScript, GCP, Azure, Kubernetes",Sample data for demo purposes
+Data Analyst,Senior,40 triệu,Ho Chi Minh,"React, Python, Node.js, NoSQL",Sample data for demo purposes
+Data Scientist,Manager,100 triệu,Hanoi,"Java, Kubernetes, Azure",Sample data for demo purposes
+Software Engineer,Junior,15 triệu,Da Nang,"SQL, Node.js, Python, Java, React",Sample data for demo purposes
+Project Manager,Senior,40 triệu,Ho Chi Minh,"Azure, Deep Learning, React, Kubernetes",Sample data for demo purposes
+Project Manager,Senior,60 triệu,Others,"Machine Learning, Docker",Sample data for demo purposes
+Mobile Developer,Junior,20 triệu,Hanoi,"React, Azure, NoSQL, Deep Learning, GCP",Sample data for demo purposes

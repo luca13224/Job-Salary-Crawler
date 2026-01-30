@@ -50,16 +50,39 @@ for _ in range(num_records):
     }
     data.append(record)
 
-# Write to CSV
-output_dir = r"c:\Topic30\data\processed"
-os.makedirs(output_dir, exist_ok=True)
-file_path = os.path.join(output_dir, "processed_demo_data.csv")
+# Write raw CSV (for processing pipeline)
+raw_output_dir = os.path.join('data', 'raw')
+os.makedirs(raw_output_dir, exist_ok=True)
+raw_file_path = os.path.join(raw_output_dir, "topcv_demo_raw.csv")
 
-with open(file_path, 'w', newline='', encoding='utf-8') as csvfile:
-    fieldnames = ["job_title", "level", "salary", "location", "skills", "source"]
+# Use consistent column names expected by the processor/web app
+fieldnames = ["title", "level", "salary", "location", "skills", "company", "source"]
+# Add a placeholder company name if missing
+for r in data:
+    if 'company' not in r or not r.get('company'):
+        r['company'] = 'Demo Company'
+    # normalize job_title -> title
+    r['title'] = r.pop('job_title') if 'job_title' in r else r.get('title', '')
+
+with open(raw_file_path, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    
     writer.writeheader()
-    writer.writerows(data)
+    writer.writerows([{k: r.get(k, '') for k in fieldnames} for r in data])
 
-print(f"Successfully generated {num_records} records in {file_path}")
+print(f"Successfully generated {num_records} raw records in {raw_file_path}")
+
+# Convenience function for other scripts
+
+def generate_sample_raw(num_records_override=None):
+    """Generate a sample raw CSV for demo/testing."""
+    global num_records, data
+    if num_records_override:
+        num = num_records_override
+    else:
+        num = num_records
+    # Reuse existing generated data list
+    os.makedirs(raw_output_dir, exist_ok=True)
+    return raw_file_path
+
+if __name__ == '__main__':
+    generate_sample_raw()

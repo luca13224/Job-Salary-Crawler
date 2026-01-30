@@ -12,56 +12,78 @@ def parse_salary(salary_str):
     """
     Parses a raw salary string into min, max, and currency.
     Returns a tuple (min_salary, max_salary, currency).
-    Salary values are in millions for VND, and as is for USD.
+    Salary values are returned in 'triệu VND' (millions of VND) when currency is VND.
+    USD values are converted to millions of VND when processed later.
     """
     if not isinstance(salary_str, str):
         return None, None, 'Negotiable'
 
-    salary_str = salary_str.lower().strip()
-    
+    raw = salary_str.lower().strip()
+
     # Common case: "Thỏa thuận"
-    if 'thỏa thuận' in salary_str or 'negotiable' in salary_str:
+    if 'thỏa thuận' in raw or 'negotiable' in raw:
         return None, None, 'Negotiable'
 
     # --- Currency Detection ---
     currency = 'VND' # Default currency
-    if 'usd' in salary_str or '$' in salary_str:
+    if 'usd' in raw or '$' in raw:
         currency = 'USD'
-    
-    # --- Clean numbers ---
-    # Remove currency symbols and units for easier parsing
-    salary_str = salary_str.replace('usd', '').replace('$', '').replace('vnd', '').strip()
-    
-    # --- Pattern Matching ---
-    
-    # Case 1: "Từ X triệu" or "Trên X triệu" or "From X" -> min_salary = X
-    match = re.search(r'(?:từ|trên|from)\s*([\d,.]+)', salary_str)
+
+    # Detect unit words
+    has_trieu = 'triệu' in raw
+    has_k = re.search(r'\b(\d+\.?\d*)k\b', raw) is not None
+
+    # Remove textual noise
+    s = raw.replace('usd', '').replace('$', '').replace('vnd', '').replace('triệu', '').strip()
+
+    # Pattern matching as before
+    match = re.search(r'(?:từ|trên|from)\s*([\d,.]+)', s)
     if match:
         min_val = float(match.group(1).replace(',', ''))
+        if has_trieu:
+            return min_val, None, currency
+        if has_k and currency == 'USD':
+            return min_val, None, currency
         return min_val, None, currency
 
-    # Case 2: "Lên đến X triệu" or "Tối đa X triệu" or "Up to X" -> max_salary = X
-    match = re.search(r'(?:lên đến|tối đa|up to)\s*([\d,.]+)', salary_str)
+    match = re.search(r'(?:lên đến|tối đa|up to)\s*([\d,.]+)', s)
     if match:
         max_val = float(match.group(1).replace(',', ''))
         return None, max_val, currency
 
-    # Case 3: "X - Y triệu" or "X - Y"
-    match = re.search(r'([\d,.]+)\s*-\s*([\d,.]+)', salary_str)
+    match = re.search(r'([\d,.]+)\s*-\s*([\d,.]+)', s)
     if match:
         min_val = float(match.group(1).replace(',', ''))
         max_val = float(match.group(2).replace(',', ''))
         return min_val, max_val, currency
 
-    # Case 4: A single number "X triệu" or just "X"
-    match = re.search(r'([\d,.]+)', salary_str)
+    match = re.search(r'([\d,.]+)k', raw)
+    if match and currency == 'USD':
+        # e.g., '2k USD' -> 2000 USD
+        val = float(match.group(1).replace(',', '')) * 1000
+        return val, val, currency
+
+    match = re.search(r'([\d,.]+)', s)
     if match:
         val = float(match.group(1).replace(',', ''))
-        # If the string contains "triệu" it could be a single value, treat it as a range midpoint
-        # For simplicity, we'll assign it as both min and max for now.
+        # If original had 'triệu' we interpret value as millions of VND already
+        if has_trieu:
+            return val, val, currency
+        # Otherwise return as-is (could be in units depending on currency)
         return val, val, currency
-        
+
     return None, None, 'Unparsed'
+
+# --- Normalize input columns in process_raw_data ---
+
+def _normalize_columns(df):
+    # Standardize title column
+    if 'job_title' in df.columns and 'title' not in df.columns:
+        df = df.rename(columns={'job_title': 'title'})
+    # Ensure salary column exists
+    if 'salary' not in df.columns and 'lương' in df.columns:
+        df = df.rename(columns={'lương': 'salary'})
+    return df
 
 def process_raw_data(input_path):
     """
@@ -76,6 +98,8 @@ def process_raw_data(input_path):
     print(f"Processing file: {input_path}")
     df = pd.read_csv(input_path)
 
+    df = _normalize_columns(df)
+
     if 'salary' not in df.columns:
         print("Error: 'salary' column not found.")
         return pd.DataFrame()
@@ -88,34 +112,38 @@ def process_raw_data(input_path):
     df['min_salary_mil_vnd'] = df['min_salary_raw']
     df['max_salary_mil_vnd'] = df['max_salary_raw']
 
-    # Convert "triệu" and USD to millions of VND
-    is_vnd = df['currency'] == 'VND'
+    # Convert USD to millions of VND when necessary
     is_usd = df['currency'] == 'USD'
-    
-    # For USD, convert to millions of VND
     df.loc[is_usd, 'min_salary_mil_vnd'] = (df.loc[is_usd, 'min_salary_raw'] * USD_TO_VND_RATE) / 1_000_000
     df.loc[is_usd, 'max_salary_mil_vnd'] = (df.loc[is_usd, 'max_salary_raw'] * USD_TO_VND_RATE) / 1_000_000
-    
+
+    # Ensure numeric types
+    df['min_salary_mil_vnd'] = pd.to_numeric(df['min_salary_mil_vnd'], errors='coerce')
+    df['max_salary_mil_vnd'] = pd.to_numeric(df['max_salary_mil_vnd'], errors='coerce')
+
     # --- Calculate Average Salary ---
-    # For a single value (min=max), avg is that value.
-    # For a range, avg is the mean.
-    # If one is null, use the other.
     df['avg_salary_mil_vnd'] = df[['min_salary_mil_vnd', 'max_salary_mil_vnd']].mean(axis=1)
-    
-    # Fill avg salary where only one of min/max is available
     df['avg_salary_mil_vnd'].fillna(df['min_salary_mil_vnd'], inplace=True)
     df['avg_salary_mil_vnd'].fillna(df['max_salary_mil_vnd'], inplace=True)
 
     print(f"Processed {len(df)} records.")
     return df
 
+# Calculate avg salary safely and avoid chained-assignment warnings
+    df['avg_salary_mil_vnd'] = df[['min_salary_mil_vnd', 'max_salary_mil_vnd']].mean(axis=1)
+    df['avg_salary_mil_vnd'] = df['avg_salary_mil_vnd'].fillna(df['min_salary_mil_vnd'])
+    df['avg_salary_mil_vnd'] = df['avg_salary_mil_vnd'].fillna(df['max_salary_mil_vnd'])
+
+    print(f"Processed {len(df)} records.")
+    return df
+
 def save_processed_data(df, original_filename):
     """
-    Saves the processed DataFrame to the data/processed directory.
+    Saves the processed DataFrame to the data/processed directory and returns the output path.
     """
     if df.empty:
         print("DataFrame is empty. No data to save.")
-        return
+        return None
 
     output_dir = os.path.join('data', 'processed')
     os.makedirs(output_dir, exist_ok=True)
@@ -127,6 +155,7 @@ def save_processed_data(df, original_filename):
 
     df.to_csv(output_path, index=False, encoding='utf-8-sig')
     print(f"Processed data saved successfully to {output_path}")
+    return output_path
 
 def get_latest_raw_file():
     """Finds the most recently created file in the data/raw directory."""

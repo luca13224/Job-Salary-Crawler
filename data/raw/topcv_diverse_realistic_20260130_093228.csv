@@ -1,0 +1,46 @@
+﻿title,company,location,salary,level,skills,url,crawled_at
+Senior Full Stack Developer,VNG Corporation,Ho Chi Minh,40-60 trieu,Senior,"React, Node.js, MongoDB, AWS",https://www.topcv.vn/viec-lam/senior-full-stack-developer,2026-01-30T09:32:28.075604
+"Senior Backend Engineer (Go, Microservices)",Tiki,Ho Chi Minh,45-70 trieu,Senior,"Go, Microservices, Kubernetes, Redis","https://www.topcv.vn/viec-lam/senior-backend-engineer-(go,-microservices)",2026-01-30T09:32:28.075604
+Tech Lead Java Spring Boot,FPT Software,Ho Chi Minh,50-80 trieu,Lead,"Java, Spring Boot, MySQL, Docker",https://www.topcv.vn/viec-lam/tech-lead-java-spring-boot,2026-01-30T09:32:28.075604
+Senior Mobile Developer (React Native),Shopee,Ho Chi Minh,42-65 trieu,Senior,"React Native, TypeScript, Redux",https://www.topcv.vn/viec-lam/senior-mobile-developer-(react-native),2026-01-30T09:32:28.075604
+Senior Frontend Developer (ReactJS),Sendo,Ho Chi Minh,38-55 trieu,Senior,"React, JavaScript, HTML/CSS, Git",https://www.topcv.vn/viec-lam/senior-frontend-developer-(reactjs),2026-01-30T09:32:28.075604
+Backend Developer NodeJS/NestJS,Viettel Solutions,Ho Chi Minh,25-40 trieu,Mid-level,"Node.js, NestJS, PostgreSQL",https://www.topcv.vn/viec-lam/backend-developer-nodejs/nestjs,2026-01-30T09:32:28.075604
+Full Stack Developer (Python/React),MOMO,Ho Chi Minh,28-45 trieu,Mid-level,"Python, Django, React, Docker",https://www.topcv.vn/viec-lam/full-stack-developer-(python/react),2026-01-30T09:32:28.075604
+Mobile Developer (Flutter),Grab Vietnam,Ho Chi Minh,30-48 trieu,Mid-level,"Flutter, Dart, Firebase",https://www.topcv.vn/viec-lam/mobile-developer-(flutter),2026-01-30T09:32:28.075604
+"DevOps Engineer (AWS, K8s)",VinID,Ho Chi Minh,32-50 trieu,Mid-level,"AWS, Kubernetes, Terraform, Jenkins","https://www.topcv.vn/viec-lam/devops-engineer-(aws,-k8s)",2026-01-30T09:32:28.075604
+"Data Engineer (Spark, Airflow)",Tyme Bank,Ho Chi Minh,35-55 trieu,Mid-level,"Spark, Airflow, Python, SQL","https://www.topcv.vn/viec-lam/data-engineer-(spark,-airflow)",2026-01-30T09:32:28.075604
+"Senior AI Engineer (ML, Deep Learning)",VinBrain,Ha Noi,45-75 trieu,Senior,"Python, TensorFlow, PyTorch, ML","https://www.topcv.vn/viec-lam/senior-ai-engineer-(ml,-deep-learning)",2026-01-30T09:32:28.075604
+Senior QA Automation Engineer,Viettel Digital,Ha Noi,35-55 trieu,Senior,"Selenium, Java, TestNG, CI/CD",https://www.topcv.vn/viec-lam/senior-qa-automation-engineer,2026-01-30T09:32:28.075604
+Blockchain Developer (Solidity),Sky Mavis,Ha Noi,50-90 trieu,Senior,"Solidity, Web3, Ethereum, Smart Contracts",https://www.topcv.vn/viec-lam/blockchain-developer-(solidity),2026-01-30T09:32:28.075604
+Senior Cloud Architect (Azure),CMC Corporation,Ha Noi,55-85 trieu,Senior,"Azure, Microservices, .NET Core",https://www.topcv.vn/viec-lam/senior-cloud-architect-(azure),2026-01-30T09:32:28.075604
+Principal Software Engineer,Base.vn,Ha Noi,60-100 trieu,Lead,"System Design, Java, Scala, Kafka",https://www.topcv.vn/viec-lam/principal-software-engineer,2026-01-30T09:32:28.075604
+Backend Developer (Java Spring),Samsung Vietnam,Ha Noi,22-35 trieu,Mid-level,"Java, Spring, MySQL, Git",https://www.topcv.vn/viec-lam/backend-developer-(java-spring),2026-01-30T09:32:28.075604
+Frontend Developer (VueJS),VNPAY,Ha Noi,20-32 trieu,Mid-level,"Vue.js, JavaScript, Webpack",https://www.topcv.vn/viec-lam/frontend-developer-(vuejs),2026-01-30T09:32:28.075604
+iOS Developer (Swift),Zalo,Ha Noi,28-42 trieu,Mid-level,"Swift, iOS, Xcode, Git",https://www.topcv.vn/viec-lam/ios-developer-(swift),2026-01-30T09:32:28.075604
+Android Developer (Kotlin),VietnamWorks,Ha Noi,26-40 trieu,Mid-level,"Kotlin, Android, MVVM, RxJava",https://www.topcv.vn/viec-lam/android-developer-(kotlin),2026-01-30T09:32:28.075604
+"Data Analyst (Python, SQL)",Nielsen Vietnam,Ha Noi,18-30 trieu,Mid-level,"Python, SQL, Tableau, Excel","https://www.topcv.vn/viec-lam/data-analyst-(python,-sql)",2026-01-30T09:32:28.075604
+Junior Full Stack Developer,NashTech,Ho Chi Minh,12-18 trieu,Junior,"JavaScript, React, Node.js, Git",https://www.topcv.vn/viec-lam/junior-full-stack-developer,2026-01-30T09:32:28.075604
+Junior Backend Developer (PHP),Saigon Technology,Ho Chi Minh,10-16 trieu,Junior,"PHP, Laravel, MySQL",https://www.topcv.vn/viec-lam/junior-backend-developer-(php),2026-01-30T09:32:28.075604
+Frontend Developer Fresher (React),Orient Software,Ho Chi Minh,8-14 trieu,Junior,"HTML, CSS, React, JavaScript",https://www.topcv.vn/viec-lam/frontend-developer-fresher-(react),2026-01-30T09:32:28.075604
+Junior QA Engineer,KMS Technology,Ho Chi Minh,9-15 trieu,Junior,"Manual Testing, SQL, Jira",https://www.topcv.vn/viec-lam/junior-qa-engineer,2026-01-30T09:32:28.075604
+Junior DevOps Engineer,Axon Active,Ho Chi Minh,11-17 trieu,Junior,"Linux, Docker, Bash, Git",https://www.topcv.vn/viec-lam/junior-devops-engineer,2026-01-30T09:32:28.075604
+Fresher Java Developer,LG CNS Vietnam,Ha Noi,8-12 trieu,Junior,"Java, OOP, SQL, Git",https://www.topcv.vn/viec-lam/fresher-java-developer,2026-01-30T09:32:28.075604
+Junior .NET Developer,Hitachi Vantara,Ha Noi,10-15 trieu,Junior,"C#, .NET Core, SQL Server",https://www.topcv.vn/viec-lam/junior-.net-developer,2026-01-30T09:32:28.075604
+Junior Mobile Developer,Katalon,Ha Noi,12-18 trieu,Junior,"Android, Java, XML",https://www.topcv.vn/viec-lam/junior-mobile-developer,2026-01-30T09:32:28.075604
+Fresher Data Analyst,Bizzi Vietnam,Ha Noi,7-12 trieu,Junior,"Excel, SQL, Python basics",https://www.topcv.vn/viec-lam/fresher-data-analyst,2026-01-30T09:32:28.075604
+Junior Python Developer,Sendo Technology,Ha Noi,9-14 trieu,Junior,"Python, Flask, MongoDB",https://www.topcv.vn/viec-lam/junior-python-developer,2026-01-30T09:32:28.075604
+Senior Full Stack Developer,Enouvo IT Solutions,Da Nang,35-55 trieu,Senior,"React, Node.js, AWS, Docker",https://www.topcv.vn/viec-lam/senior-full-stack-developer,2026-01-30T09:32:28.075604
+Mid-level Backend Developer,CBI Solutions,Da Nang,22-35 trieu,Mid-level,"PHP, Laravel, MySQL, Redis",https://www.topcv.vn/viec-lam/mid-level-backend-developer,2026-01-30T09:32:28.075604
+Junior Frontend Developer,Enclave,Da Nang,10-16 trieu,Junior,"HTML, CSS, JavaScript, Bootstrap",https://www.topcv.vn/viec-lam/junior-frontend-developer,2026-01-30T09:32:28.075604
+Remote Senior Node.js Developer,Topica Native,Remote,40-65 trieu,Senior,"Node.js, Express, MongoDB, AWS",https://www.topcv.vn/viec-lam/remote-senior-node.js-developer,2026-01-30T09:32:28.075604
+Remote Mid-level React Developer,Golden Owl,Remote,25-40 trieu,Mid-level,"React, Redux, TypeScript",https://www.topcv.vn/viec-lam/remote-mid-level-react-developer,2026-01-30T09:32:28.075604
+Engineering Manager,Lazada Vietnam,Ho Chi Minh,70-120 trieu,Manager,"Leadership, System Design, Agile",https://www.topcv.vn/viec-lam/engineering-manager,2026-01-30T09:32:28.075604
+Technical Product Manager,Manabie,Ha Noi,60-100 trieu,Manager,"Product Management, Tech Stack, SQL",https://www.topcv.vn/viec-lam/technical-product-manager,2026-01-30T09:32:28.075604
+CTO (Chief Technology Officer),Startup AI,Ho Chi Minh,100-200 trieu,Manager,"Leadership, Architecture, Strategy",https://www.topcv.vn/viec-lam/cto-(chief-technology-officer),2026-01-30T09:32:28.075604
+Head of Engineering,Techcombank,Ha Noi,80-150 trieu,Manager,"Team Management, Tech Strategy",https://www.topcv.vn/viec-lam/head-of-engineering,2026-01-30T09:32:28.075604
+Development Team Lead,MB Bank,Ho Chi Minh,55-90 trieu,Lead,"Java, Spring Boot, Team Lead, Scrum",https://www.topcv.vn/viec-lam/development-team-lead,2026-01-30T09:32:28.075604
+Machine Learning Engineer,FPT AI,Ha Noi,35-60 trieu,Mid-level,"Python, TensorFlow, ML, Data Science",https://www.topcv.vn/viec-lam/machine-learning-engineer,2026-01-30T09:32:28.075604
+Security Engineer,BKAV,Ha Noi,30-50 trieu,Mid-level,"Security, Penetration Testing, Linux",https://www.topcv.vn/viec-lam/security-engineer,2026-01-30T09:32:28.075604
+Database Administrator,HDBank,Ho Chi Minh,28-45 trieu,Mid-level,"Oracle, SQL Server, PostgreSQL",https://www.topcv.vn/viec-lam/database-administrator,2026-01-30T09:32:28.075604
+UI/UX Designer (with coding),VCCorp,Ha Noi,22-38 trieu,Mid-level,"Figma, HTML/CSS, JavaScript",https://www.topcv.vn/viec-lam/ui/ux-designer-(with-coding),2026-01-30T09:32:28.075604
+Game Developer (Unity),VNG Games,Ho Chi Minh,25-45 trieu,Mid-level,"Unity, C#, Game Design",https://www.topcv.vn/viec-lam/game-developer-(unity),2026-01-30T09:32:28.075604

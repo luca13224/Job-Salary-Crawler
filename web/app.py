@@ -1,5 +1,6 @@
 import os
 import re
+import glob
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
@@ -20,8 +21,19 @@ def load_data():
     It robustly handles the salary column by parsing string values
     and provides a fallback mechanism for demo purposes.
     """
-    data_path = os.path.join('data', 'processed', 'processed_demo_data.csv')
+    # Try the demo-specific filename first, otherwise pick the latest processed CSV
+    processed_dir = os.path.join('data', 'processed')
+    candidate = os.path.join(processed_dir, 'processed_demo_data.csv')
+    if os.path.exists(candidate):
+        data_path = candidate
+    else:
+        # Pick the latest processed file if any
+        files = glob.glob(os.path.join(processed_dir, '*.csv'))
+        data_path = max(files, key=os.path.getctime) if files else None
+
     try:
+        if not data_path:
+            raise FileNotFoundError
         df = pd.read_csv(data_path, engine="python", on_bad_lines="skip")
 
         # --- Robust Salary Parsing ---

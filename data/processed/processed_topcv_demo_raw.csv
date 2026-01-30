@@ -1,0 +1,467 @@
+﻿title,level,salary,location,skills,company,source,min_salary_raw,max_salary_raw,currency,min_salary_mil_vnd,max_salary_mil_vnd,avg_salary_mil_vnd
+Data Scientist,Manager,125 triệu,Ho Chi Minh,"GCP, JavaScript",Demo Company,Sample data for demo purposes,125.0,125.0,VND,125.0,125.0,125.0
+QA Engineer,Junior,30 triệu,Hanoi,"Kubernetes, Java, Docker, AWS",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Product Manager,Senior,65 triệu,Hanoi,"GCP, Machine Learning, Java, Azure, NoSQL",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+QA Engineer,Senior,60 triệu,Remote,"Python, AWS, Node.js, GCP",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Fullstack Developer,Mid-level,30 triệu,Ho Chi Minh,"AWS, Docker, GCP, JavaScript",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Frontend Developer,Intern,10 triệu,Da Nang,"React, Kubernetes",Demo Company,Sample data for demo purposes,10.0,10.0,VND,10.0,10.0,10.0
+DevOps Engineer,Junior,20 triệu,Ho Chi Minh,"Python, Machine Learning",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Backend Developer,Junior,6 triệu,Da Nang,"Deep Learning, GCP, Java",Demo Company,Sample data for demo purposes,6.0,6.0,VND,6.0,6.0,6.0
+QA Engineer,Junior,20 triệu,Ho Chi Minh,"SQL, AWS, Docker, GCP",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Software Engineer,Junior,30 triệu,Ho Chi Minh,"SQL, AWS, NoSQL, Kubernetes, Machine Learning",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Data Scientist,Junior,20 triệu,Hanoi,"Java, Azure, Node.js, NoSQL, Python",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Backend Developer,Senior,60 triệu,Hanoi,"Azure, Machine Learning, Python, Deep Learning, JavaScript",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Fullstack Developer,Intern,13 triệu,Da Nang,"SQL, NoSQL, Node.js, Docker",Demo Company,Sample data for demo purposes,13.0,13.0,VND,13.0,13.0,13.0
+Project Manager,Junior,25 triệu,Hanoi,"Kubernetes, React, Java",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Backend Developer,Intern,9 triệu,Da Nang,"JavaScript, Node.js",Demo Company,Sample data for demo purposes,9.0,9.0,VND,9.0,9.0,9.0
+Mobile Developer,Mid-level,35 triệu,Ho Chi Minh,"Deep Learning, Docker, Python, React",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Project Manager,Mid-level,20 triệu,Da Nang,"AWS, JavaScript, NoSQL, Java",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+DevOps Engineer,Mid-level,40 triệu,Ho Chi Minh,"Machine Learning, NoSQL, Kubernetes",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+DevOps Engineer,Manager,120 triệu,Hanoi,"Azure, AWS, Node.js, Python",Demo Company,Sample data for demo purposes,120.0,120.0,VND,120.0,120.0,120.0
+Data Analyst,Mid-level,45 triệu,Hanoi,"GCP, Python",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Mobile Developer,Mid-level,20 triệu,Remote,"Java, Python, Deep Learning, React, NoSQL",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Project Manager,Junior,19 triệu,Hanoi,"Java, Node.js",Demo Company,Sample data for demo purposes,19.0,19.0,VND,19.0,19.0,19.0
+Project Manager,Mid-level,25 triệu,Da Nang,"Azure, React, Java, Kubernetes, SQL",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Project Manager,Senior,65 triệu,Da Nang,"SQL, Machine Learning, Azure, Deep Learning, Java",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Business Analyst,Manager,75 triệu,Ho Chi Minh,"Node.js, NoSQL, Azure, Java, GCP",Demo Company,Sample data for demo purposes,75.0,75.0,VND,75.0,75.0,75.0
+Data Analyst,Mid-level,45 triệu,Hanoi,"Machine Learning, JavaScript",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Data Scientist,Senior,40 triệu,Hanoi,"Python, Azure, Docker",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+DevOps Engineer,Senior,60 triệu,Hanoi,"React, Azure, Deep Learning",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Frontend Developer,Mid-level,35 triệu,Hanoi,"SQL, Machine Learning, Python",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Business Analyst,Manager,135 triệu,Hanoi,"JavaScript, GCP, Deep Learning",Demo Company,Sample data for demo purposes,135.0,135.0,VND,135.0,135.0,135.0
+Project Manager,Mid-level,45 triệu,Ho Chi Minh,"Deep Learning, Java, AWS",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Business Analyst,Junior,20 triệu,Ho Chi Minh,"GCP, AWS, Deep Learning, JavaScript",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+QA Engineer,Mid-level,45 triệu,Hanoi,"React, Python, Docker, Kubernetes, Java",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Software Engineer,Junior,13 triệu,Remote,"SQL, Docker, Java, Kubernetes, Azure",Demo Company,Sample data for demo purposes,13.0,13.0,VND,13.0,13.0,13.0
+Software Engineer,Junior,13 triệu,Ho Chi Minh,"JavaScript, Azure, GCP",Demo Company,Sample data for demo purposes,13.0,13.0,VND,13.0,13.0,13.0
+Mobile Developer,Junior,18 triệu,Ho Chi Minh,"NoSQL, Docker, Java, GCP, Machine Learning",Demo Company,Sample data for demo purposes,18.0,18.0,VND,18.0,18.0,18.0
+Business Analyst,Senior,50 triệu,Ho Chi Minh,"Node.js, SQL, Docker, Python",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Mobile Developer,Mid-level,30 triệu,Hanoi,"SQL, Docker, Node.js, Kubernetes",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Software Engineer,Senior,50 triệu,Da Nang,"Kubernetes, Deep Learning, Machine Learning, React",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Data Analyst,Junior,12 triệu,Hanoi,"Deep Learning, Machine Learning",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Software Engineer,Mid-level,35 triệu,Ho Chi Minh,"React, Azure, Kubernetes, Java",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Data Analyst,Senior,55 triệu,Hanoi,"JavaScript, SQL, NoSQL",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Project Manager,Junior,12 triệu,Da Nang,"Azure, Node.js, Kubernetes",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Business Analyst,Junior,20 triệu,Hanoi,"Node.js, Azure, NoSQL",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Frontend Developer,Junior,17 triệu,Ho Chi Minh,"GCP, React, Node.js, Deep Learning, Kubernetes",Demo Company,Sample data for demo purposes,17.0,17.0,VND,17.0,17.0,17.0
+Mobile Developer,Junior,20 triệu,Hanoi,"Azure, Docker, AWS",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Fullstack Developer,Senior,65 triệu,Hanoi,"Deep Learning, JavaScript",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Data Scientist,Intern,9 triệu,Da Nang,"Python, AWS, Azure, NoSQL",Demo Company,Sample data for demo purposes,9.0,9.0,VND,9.0,9.0,9.0
+Software Engineer,Mid-level,25 triệu,Hanoi,"Python, NoSQL, JavaScript",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Frontend Developer,Manager,140 triệu,Ho Chi Minh,"AWS, Deep Learning, Azure",Demo Company,Sample data for demo purposes,140.0,140.0,VND,140.0,140.0,140.0
+Software Engineer,Mid-level,30 triệu,Hanoi,"SQL, JavaScript, React",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Data Scientist,Lead,95 triệu,Hanoi,"GCP, Python, Java, JavaScript",Demo Company,Sample data for demo purposes,95.0,95.0,VND,95.0,95.0,95.0
+Software Engineer,Mid-level,35 triệu,Hanoi,"Java, Machine Learning",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Mobile Developer,Mid-level,35 triệu,Ho Chi Minh,"Kubernetes, Java, JavaScript, React",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Frontend Developer,Mid-level,35 triệu,Ho Chi Minh,"React, Machine Learning, JavaScript, NoSQL",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Product Manager,Lead,70 triệu,Hanoi,"AWS, React",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Data Analyst,Junior,14 triệu,Hanoi,"Node.js, React",Demo Company,Sample data for demo purposes,14.0,14.0,VND,14.0,14.0,14.0
+Data Analyst,Mid-level,35 triệu,Ho Chi Minh,"Java, Azure, SQL, Deep Learning, React",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+DevOps Engineer,Senior,75 triệu,Ho Chi Minh,"Java, React, Docker",Demo Company,Sample data for demo purposes,75.0,75.0,VND,75.0,75.0,75.0
+QA Engineer,Senior,60 triệu,Hanoi,"Docker, JavaScript, AWS",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Frontend Developer,Mid-level,30 triệu,Remote,"Java, Docker, JavaScript, Azure, Deep Learning",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Mobile Developer,Mid-level,45 triệu,Ho Chi Minh,"Docker, NoSQL, JavaScript, Java, Azure",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+DevOps Engineer,Mid-level,30 triệu,Da Nang,"Kubernetes, JavaScript, Node.js, AWS",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Data Analyst,Lead,80 triệu,Others,"Python, SQL, Machine Learning, Node.js",Demo Company,Sample data for demo purposes,80.0,80.0,VND,80.0,80.0,80.0
+Mobile Developer,Junior,13 triệu,Ho Chi Minh,"SQL, AWS",Demo Company,Sample data for demo purposes,13.0,13.0,VND,13.0,13.0,13.0
+Fullstack Developer,Mid-level,40 triệu,Remote,"Node.js, Deep Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Analyst,Mid-level,25 triệu,Ho Chi Minh,"NoSQL, Deep Learning, AWS",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+DevOps Engineer,Senior,55 triệu,Ho Chi Minh,"Machine Learning, Docker, GCP",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Fullstack Developer,Senior,40 triệu,Ho Chi Minh,"Deep Learning, JavaScript, GCP, AWS",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Project Manager,Senior,40 triệu,Ho Chi Minh,"Docker, Kubernetes, React, Deep Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Fullstack Developer,Mid-level,30 triệu,Ho Chi Minh,"Kubernetes, SQL, NoSQL",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Project Manager,Senior,65 triệu,Da Nang,"SQL, GCP, Node.js, AWS",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Frontend Developer,Senior,45 triệu,Ho Chi Minh,"Java, Docker",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+QA Engineer,Mid-level,40 triệu,Hanoi,"Deep Learning, NoSQL, Azure, React, Python",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Mobile Developer,Mid-level,45 triệu,Remote,"JavaScript, GCP, AWS",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+DevOps Engineer,Senior,55 triệu,Hanoi,"React, Python, Java",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Fullstack Developer,Senior,55 triệu,Hanoi,"Python, Deep Learning, React, Java, SQL",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+DevOps Engineer,Lead,65 triệu,Ho Chi Minh,"AWS, Kubernetes",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+DevOps Engineer,Junior,14 triệu,Hanoi,"Kubernetes, Python, AWS, GCP, Machine Learning",Demo Company,Sample data for demo purposes,14.0,14.0,VND,14.0,14.0,14.0
+Product Manager,Mid-level,30 triệu,Hanoi,"Deep Learning, AWS, GCP, NoSQL, Docker",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Mobile Developer,Mid-level,30 triệu,Hanoi,"Python, Docker, Kubernetes",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Software Engineer,Senior,55 triệu,Remote,"Docker, NoSQL, GCP",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Frontend Developer,Junior,15 triệu,Hanoi,"React, Machine Learning, SQL",Demo Company,Sample data for demo purposes,15.0,15.0,VND,15.0,15.0,15.0
+Data Scientist,Junior,15 triệu,Others,"React, AWS, Node.js, Deep Learning, Docker",Demo Company,Sample data for demo purposes,15.0,15.0,VND,15.0,15.0,15.0
+Data Analyst,Senior,45 triệu,Ho Chi Minh,"Azure, NoSQL",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+DevOps Engineer,Senior,45 triệu,Hanoi,"GCP, Machine Learning",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Mobile Developer,Junior,19 triệu,Da Nang,"Docker, JavaScript, Kubernetes, AWS",Demo Company,Sample data for demo purposes,19.0,19.0,VND,19.0,19.0,19.0
+Project Manager,Senior,55 triệu,Ho Chi Minh,"Deep Learning, Azure, NoSQL, Java, Machine Learning",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Data Scientist,Senior,60 triệu,Da Nang,"Java, NoSQL",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Data Analyst,Mid-level,45 triệu,Da Nang,"NoSQL, Node.js, GCP, Java",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Backend Developer,Junior,19 triệu,Da Nang,"NoSQL, Java",Demo Company,Sample data for demo purposes,19.0,19.0,VND,19.0,19.0,19.0
+Product Manager,Mid-level,40 triệu,Ho Chi Minh,"React, AWS, Kubernetes, Python, Docker",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Scientist,Mid-level,30 triệu,Ho Chi Minh,"Docker, React, Machine Learning, Java, Node.js",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Software Engineer,Junior,19 triệu,Da Nang,"React, GCP",Demo Company,Sample data for demo purposes,19.0,19.0,VND,19.0,19.0,19.0
+Frontend Developer,Junior,12 triệu,Hanoi,"Kubernetes, Python",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Project Manager,Manager,145 triệu,Ho Chi Minh,"Java, Node.js",Demo Company,Sample data for demo purposes,145.0,145.0,VND,145.0,145.0,145.0
+Fullstack Developer,Senior,80 triệu,Hanoi,"Java, NoSQL, Deep Learning, Docker, Kubernetes",Demo Company,Sample data for demo purposes,80.0,80.0,VND,80.0,80.0,80.0
+Frontend Developer,Mid-level,35 triệu,Ho Chi Minh,"Machine Learning, Kubernetes, AWS, GCP, SQL",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Project Manager,Senior,70 triệu,Ho Chi Minh,"Machine Learning, Node.js, AWS, Deep Learning",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Fullstack Developer,Mid-level,30 triệu,Ho Chi Minh,"Node.js, GCP, Kubernetes",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Frontend Developer,Senior,55 triệu,Ho Chi Minh,"Python, Deep Learning, GCP",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Data Scientist,Mid-level,30 triệu,Remote,"Kubernetes, AWS, Azure, React, Node.js",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Project Manager,Lead,95 triệu,Ho Chi Minh,"JavaScript, Azure, React",Demo Company,Sample data for demo purposes,95.0,95.0,VND,95.0,95.0,95.0
+Backend Developer,Mid-level,35 triệu,Hanoi,"AWS, Java, GCP, NoSQL",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Backend Developer,Junior,11 triệu,Hanoi,"SQL, NoSQL",Demo Company,Sample data for demo purposes,11.0,11.0,VND,11.0,11.0,11.0
+Backend Developer,Junior,25 triệu,Hanoi,"AWS, Java, Kubernetes, NoSQL",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+QA Engineer,Senior,65 triệu,Hanoi,"Java, React, Python, AWS, NoSQL",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Data Scientist,Junior,25 triệu,Hanoi,"Java, Deep Learning",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Data Analyst,Senior,50 triệu,Remote,"Azure, Docker, Kubernetes, GCP",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Product Manager,Senior,45 triệu,Hanoi,"AWS, SQL",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+QA Engineer,Senior,45 triệu,Remote,"SQL, Machine Learning, GCP",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Project Manager,Manager,125 triệu,Remote,"NoSQL, Java, Kubernetes",Demo Company,Sample data for demo purposes,125.0,125.0,VND,125.0,125.0,125.0
+Software Engineer,Junior,10 triệu,Ho Chi Minh,"Machine Learning, Kubernetes",Demo Company,Sample data for demo purposes,10.0,10.0,VND,10.0,10.0,10.0
+Software Engineer,Mid-level,35 triệu,Others,"Azure, GCP",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Mobile Developer,Senior,55 triệu,Ho Chi Minh,"Node.js, Machine Learning",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Product Manager,Junior,25 triệu,Da Nang,"JavaScript, NoSQL, Deep Learning",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Mobile Developer,Junior,12 triệu,Hanoi,"NoSQL, Machine Learning",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Software Engineer,Mid-level,40 triệu,Hanoi,"React, NoSQL, Kubernetes, Python",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Backend Developer,Mid-level,30 triệu,Hanoi,"Docker, NoSQL, GCP, Python",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Business Analyst,Senior,50 triệu,Hanoi,"Deep Learning, React, Node.js, Java",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Backend Developer,Mid-level,30 triệu,Hanoi,"Python, AWS",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Mobile Developer,Mid-level,40 triệu,Hanoi,"Python, Kubernetes, Machine Learning, Deep Learning, React",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Product Manager,Lead,85 triệu,Hanoi,"Machine Learning, NoSQL, Docker",Demo Company,Sample data for demo purposes,85.0,85.0,VND,85.0,85.0,85.0
+QA Engineer,Junior,25 triệu,Ho Chi Minh,"Node.js, React",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+QA Engineer,Lead,65 triệu,Ho Chi Minh,"Java, JavaScript, Node.js",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Frontend Developer,Mid-level,25 triệu,Hanoi,"Azure, Deep Learning, JavaScript",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Backend Developer,Lead,70 triệu,Ho Chi Minh,"AWS, Machine Learning, SQL, Python",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Frontend Developer,Mid-level,35 triệu,Hanoi,"Deep Learning, Node.js, NoSQL",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Software Engineer,Senior,60 triệu,Hanoi,"Deep Learning, GCP, Azure, AWS, Node.js",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+DevOps Engineer,Junior,16 triệu,Ho Chi Minh,"Python, Java, Deep Learning, SQL, AWS",Demo Company,Sample data for demo purposes,16.0,16.0,VND,16.0,16.0,16.0
+Software Engineer,Intern,11 triệu,Hanoi,"SQL, NoSQL, JavaScript, Docker, AWS",Demo Company,Sample data for demo purposes,11.0,11.0,VND,11.0,11.0,11.0
+Data Scientist,Senior,55 triệu,Hanoi,"Azure, GCP, SQL, Java",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Frontend Developer,Senior,65 triệu,Ho Chi Minh,"GCP, Java, React, Node.js, Docker",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+QA Engineer,Junior,9 triệu,Da Nang,"Azure, React",Demo Company,Sample data for demo purposes,9.0,9.0,VND,9.0,9.0,9.0
+Software Engineer,Manager,95 triệu,Hanoi,"Python, Java, Deep Learning",Demo Company,Sample data for demo purposes,95.0,95.0,VND,95.0,95.0,95.0
+Data Scientist,Mid-level,30 triệu,Hanoi,"Machine Learning, GCP, Deep Learning, Python",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+DevOps Engineer,Junior,25 triệu,Hanoi,"AWS, Deep Learning, JavaScript, SQL, Docker",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Frontend Developer,Mid-level,30 triệu,Ho Chi Minh,"Azure, Machine Learning",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Fullstack Developer,Junior,16 triệu,Hanoi,"Deep Learning, Python, Kubernetes",Demo Company,Sample data for demo purposes,16.0,16.0,VND,16.0,16.0,16.0
+Frontend Developer,Senior,50 triệu,Da Nang,"SQL, React, Machine Learning, JavaScript",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Data Scientist,Mid-level,30 triệu,Hanoi,"JavaScript, Kubernetes, Node.js, GCP, Azure",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Project Manager,Lead,95 triệu,Ho Chi Minh,"GCP, Azure, Machine Learning",Demo Company,Sample data for demo purposes,95.0,95.0,VND,95.0,95.0,95.0
+Software Engineer,Mid-level,40 triệu,Hanoi,"Deep Learning, Kubernetes, AWS, JavaScript",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Fullstack Developer,Mid-level,30 triệu,Ho Chi Minh,"AWS, Kubernetes, React",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Software Engineer,Senior,35 triệu,Others,"Java, JavaScript, Machine Learning, NoSQL",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+QA Engineer,Mid-level,45 triệu,Da Nang,"AWS, GCP, Docker, Azure, Machine Learning",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Data Scientist,Intern,10 triệu,Ho Chi Minh,"Azure, NoSQL",Demo Company,Sample data for demo purposes,10.0,10.0,VND,10.0,10.0,10.0
+Backend Developer,Mid-level,30 triệu,Hanoi,"Python, Kubernetes, NoSQL, JavaScript, Docker",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+QA Engineer,Junior,15 triệu,Hanoi,"Machine Learning, NoSQL, Python, Java",Demo Company,Sample data for demo purposes,15.0,15.0,VND,15.0,15.0,15.0
+Fullstack Developer,Junior,25 triệu,Ho Chi Minh,"React, Node.js, NoSQL, Python, JavaScript",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Data Analyst,Mid-level,35 triệu,Hanoi,"Node.js, Java, AWS, SQL",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Software Engineer,Mid-level,20 triệu,Ho Chi Minh,"GCP, AWS, React",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Data Analyst,Lead,75 triệu,Ho Chi Minh,"Deep Learning, Java, React, JavaScript",Demo Company,Sample data for demo purposes,75.0,75.0,VND,75.0,75.0,75.0
+Fullstack Developer,Junior,25 triệu,Hanoi,"NoSQL, Python, Node.js",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Frontend Developer,Junior,20 triệu,Ho Chi Minh,"Docker, Machine Learning, Kubernetes",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Product Manager,Junior,16 triệu,Hanoi,"Node.js, Machine Learning",Demo Company,Sample data for demo purposes,16.0,16.0,VND,16.0,16.0,16.0
+Project Manager,Mid-level,45 triệu,Hanoi,"Python, SQL",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Mobile Developer,Manager,110 triệu,Ho Chi Minh,"NoSQL, Kubernetes",Demo Company,Sample data for demo purposes,110.0,110.0,VND,110.0,110.0,110.0
+Fullstack Developer,Mid-level,25 triệu,Ho Chi Minh,"React, Docker, Node.js, GCP",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+DevOps Engineer,Lead,80 triệu,Ho Chi Minh,"Node.js, GCP, React, JavaScript",Demo Company,Sample data for demo purposes,80.0,80.0,VND,80.0,80.0,80.0
+DevOps Engineer,Mid-level,30 triệu,Hanoi,"AWS, NoSQL",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Frontend Developer,Manager,105 triệu,Ho Chi Minh,"Azure, AWS, Java",Demo Company,Sample data for demo purposes,105.0,105.0,VND,105.0,105.0,105.0
+Frontend Developer,Mid-level,30 triệu,Hanoi,"Python, Deep Learning",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Frontend Developer,Mid-level,40 triệu,Hanoi,"Python, AWS",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Product Manager,Mid-level,35 triệu,Hanoi,"Kubernetes, React, GCP, JavaScript, Docker",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Data Scientist,Lead,55 triệu,Hanoi,"Python, JavaScript",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Backend Developer,Mid-level,35 triệu,Ho Chi Minh,"JavaScript, Python, AWS, Node.js",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Frontend Developer,Mid-level,35 triệu,Hanoi,"SQL, Azure, JavaScript, React, Deep Learning",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Data Analyst,Senior,60 triệu,Ho Chi Minh,"Docker, SQL, Java, Node.js, GCP",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Project Manager,Junior,25 triệu,Ho Chi Minh,"Kubernetes, SQL, AWS",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Frontend Developer,Senior,45 triệu,Hanoi,"Deep Learning, AWS, SQL, React",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Product Manager,Senior,60 triệu,Hanoi,"Kubernetes, Deep Learning, JavaScript",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+QA Engineer,Senior,70 triệu,Ho Chi Minh,"Kubernetes, Python, Docker",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Project Manager,Senior,40 triệu,Hanoi,"Java, Machine Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Scientist,Senior,65 triệu,Ho Chi Minh,"Kubernetes, Azure",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Software Engineer,Junior,25 triệu,Remote,"Kubernetes, AWS, NoSQL, Machine Learning, SQL",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Fullstack Developer,Junior,15 triệu,Ho Chi Minh,"React, JavaScript, Deep Learning, GCP, Docker",Demo Company,Sample data for demo purposes,15.0,15.0,VND,15.0,15.0,15.0
+Mobile Developer,Senior,65 triệu,Ho Chi Minh,"Python, SQL",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+DevOps Engineer,Mid-level,30 triệu,Hanoi,"JavaScript, NoSQL",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Product Manager,Junior,12 triệu,Others,"GCP, React",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Fullstack Developer,Junior,12 triệu,Ho Chi Minh,"Node.js, GCP, Kubernetes, NoSQL, React",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Business Analyst,Lead,65 triệu,Hanoi,"Node.js, SQL, JavaScript, Machine Learning, Java",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Product Manager,Mid-level,25 triệu,Hanoi,"Node.js, React",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+QA Engineer,Mid-level,40 triệu,Ho Chi Minh,"NoSQL, Azure, Node.js, JavaScript",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Mobile Developer,Intern,10 triệu,Ho Chi Minh,"Node.js, JavaScript, SQL",Demo Company,Sample data for demo purposes,10.0,10.0,VND,10.0,10.0,10.0
+Frontend Developer,Senior,60 triệu,Hanoi,"NoSQL, Azure, AWS, React",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Software Engineer,Junior,25 triệu,Hanoi,"NoSQL, Deep Learning, SQL, AWS",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Frontend Developer,Mid-level,25 triệu,Ho Chi Minh,"AWS, Python, Docker, Machine Learning",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+DevOps Engineer,Lead,70 triệu,Hanoi,"Deep Learning, NoSQL, SQL",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Fullstack Developer,Junior,20 triệu,Ho Chi Minh,"JavaScript, SQL, Docker, Machine Learning, Python",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Business Analyst,Mid-level,40 triệu,Ho Chi Minh,"Azure, Python, Node.js, JavaScript, GCP",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+DevOps Engineer,Mid-level,50 triệu,Ho Chi Minh,"Node.js, Docker",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+QA Engineer,Junior,13 triệu,Hanoi,"NoSQL, AWS, Python, Machine Learning, GCP",Demo Company,Sample data for demo purposes,13.0,13.0,VND,13.0,13.0,13.0
+Mobile Developer,Senior,55 triệu,Ho Chi Minh,"Kubernetes, Java, Azure",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Project Manager,Junior,17 triệu,Ho Chi Minh,"GCP, Python, SQL, NoSQL",Demo Company,Sample data for demo purposes,17.0,17.0,VND,17.0,17.0,17.0
+Software Engineer,Senior,45 triệu,Ho Chi Minh,"Kubernetes, Java",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Data Scientist,Junior,25 triệu,Ho Chi Minh,"Python, Java, React, Kubernetes, JavaScript",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Backend Developer,Mid-level,35 triệu,Hanoi,"Machine Learning, SQL, Azure, JavaScript",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Product Manager,Junior,25 triệu,Remote,"Deep Learning, GCP",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Software Engineer,Junior,25 triệu,Da Nang,"Deep Learning, Python, SQL, React",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+QA Engineer,Mid-level,35 triệu,Remote,"AWS, Kubernetes",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Backend Developer,Mid-level,40 triệu,Ho Chi Minh,"Machine Learning, Deep Learning, JavaScript",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Analyst,Mid-level,45 triệu,Ho Chi Minh,"Docker, SQL, JavaScript",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Product Manager,Mid-level,30 triệu,Ho Chi Minh,"Machine Learning, GCP",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Project Manager,Mid-level,30 triệu,Hanoi,"SQL, AWS, Python, Machine Learning",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Backend Developer,Mid-level,30 triệu,Ho Chi Minh,"GCP, Docker, Node.js, React, AWS",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Mobile Developer,Mid-level,30 triệu,Da Nang,"NoSQL, Node.js, React, GCP, Azure",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Product Manager,Mid-level,30 triệu,Da Nang,"NoSQL, Deep Learning, Java",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+QA Engineer,Senior,45 triệu,Ho Chi Minh,"React, Azure, Kubernetes, Node.js, Deep Learning",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Frontend Developer,Mid-level,35 triệu,Da Nang,"Deep Learning, React, Kubernetes",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+DevOps Engineer,Mid-level,30 triệu,Hanoi,"Machine Learning, NoSQL, GCP, Node.js, Java",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Backend Developer,Junior,12 triệu,Ho Chi Minh,"GCP, NoSQL, Azure, Kubernetes",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Project Manager,Junior,20 triệu,Others,"AWS, Python, SQL, React, Java",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Mobile Developer,Mid-level,35 triệu,Hanoi,"AWS, Docker",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Frontend Developer,Mid-level,35 triệu,Ho Chi Minh,"AWS, Azure, Python",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Product Manager,Senior,40 triệu,Hanoi,"React, Node.js",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+QA Engineer,Senior,75 triệu,Ho Chi Minh,"Azure, Docker, Python",Demo Company,Sample data for demo purposes,75.0,75.0,VND,75.0,75.0,75.0
+Data Scientist,Senior,40 triệu,Remote,"GCP, JavaScript, Java, AWS",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Backend Developer,Mid-level,35 triệu,Ho Chi Minh,"Docker, NoSQL, Deep Learning, AWS",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Data Analyst,Mid-level,25 triệu,Ho Chi Minh,"Deep Learning, React, NoSQL",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+DevOps Engineer,Senior,65 triệu,Hanoi,"Docker, NoSQL, SQL, Python",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Project Manager,Senior,45 triệu,Ho Chi Minh,"AWS, Machine Learning, Kubernetes, Docker",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Software Engineer,Senior,50 triệu,Da Nang,"SQL, Docker, JavaScript, Deep Learning, Machine Learning",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+DevOps Engineer,Senior,55 triệu,Hanoi,"NoSQL, SQL",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Business Analyst,Senior,50 triệu,Ho Chi Minh,"Kubernetes, Deep Learning, Node.js",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Frontend Developer,Junior,25 triệu,Da Nang,"GCP, Python, SQL",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Business Analyst,Mid-level,35 triệu,Hanoi,"Python, Kubernetes, SQL, Java",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Backend Developer,Senior,65 triệu,Ho Chi Minh,"Azure, SQL",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Frontend Developer,Mid-level,35 triệu,Ho Chi Minh,"NoSQL, Docker, JavaScript",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Product Manager,Junior,15 triệu,Hanoi,"NoSQL, Java, React, GCP",Demo Company,Sample data for demo purposes,15.0,15.0,VND,15.0,15.0,15.0
+DevOps Engineer,Mid-level,40 triệu,Ho Chi Minh,"GCP, Azure, Deep Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Frontend Developer,Lead,70 triệu,Ho Chi Minh,"Node.js, Kubernetes, Machine Learning",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Data Analyst,Mid-level,45 triệu,Hanoi,"SQL, Node.js, Deep Learning, Docker",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Fullstack Developer,Lead,70 triệu,Ho Chi Minh,"Node.js, SQL",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Mobile Developer,Mid-level,45 triệu,Da Nang,"Java, React",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Product Manager,Senior,55 triệu,Hanoi,"NoSQL, JavaScript, Docker, Python, AWS",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Data Scientist,Senior,45 triệu,Ho Chi Minh,"Docker, SQL, Azure, Machine Learning, Node.js",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Software Engineer,Senior,40 triệu,Ho Chi Minh,"Azure, Machine Learning, Python",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Backend Developer,Junior,25 triệu,Ho Chi Minh,"NoSQL, Azure, SQL, Node.js, Kubernetes",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Business Analyst,Mid-level,35 triệu,Hanoi,"AWS, Deep Learning, SQL, React",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Fullstack Developer,Junior,19 triệu,Hanoi,"Docker, Machine Learning, Python, JavaScript",Demo Company,Sample data for demo purposes,19.0,19.0,VND,19.0,19.0,19.0
+Fullstack Developer,Junior,25 triệu,Ho Chi Minh,"Machine Learning, Node.js, React",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Project Manager,Mid-level,45 triệu,Hanoi,"AWS, SQL, Kubernetes, Deep Learning",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Data Scientist,Mid-level,35 triệu,Others,"NoSQL, Node.js",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Backend Developer,Junior,20 triệu,Hanoi,"Kubernetes, SQL, JavaScript, Machine Learning",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Data Analyst,Mid-level,45 triệu,Hanoi,"AWS, Azure, Kubernetes, Machine Learning, Deep Learning",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Frontend Developer,Senior,60 triệu,Hanoi,"Java, React, Node.js, AWS",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Backend Developer,Senior,45 triệu,Hanoi,"GCP, React",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Mobile Developer,Mid-level,45 triệu,Da Nang,"AWS, Python",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Frontend Developer,Senior,60 triệu,Ho Chi Minh,"Kubernetes, Azure, AWS, Deep Learning",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Mobile Developer,Senior,50 triệu,Hanoi,"GCP, Azure, SQL",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Software Engineer,Lead,85 triệu,Ho Chi Minh,"React, SQL, NoSQL, JavaScript, Kubernetes",Demo Company,Sample data for demo purposes,85.0,85.0,VND,85.0,85.0,85.0
+Frontend Developer,Mid-level,40 triệu,Ho Chi Minh,"NoSQL, Docker, GCP, JavaScript, React",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Project Manager,Senior,70 triệu,Ho Chi Minh,"SQL, Node.js, Machine Learning, GCP, AWS",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Frontend Developer,Junior,7 triệu,Others,"JavaScript, SQL, Java",Demo Company,Sample data for demo purposes,7.0,7.0,VND,7.0,7.0,7.0
+Project Manager,Intern,11 triệu,Hanoi,"Node.js, Docker, GCP, React",Demo Company,Sample data for demo purposes,11.0,11.0,VND,11.0,11.0,11.0
+Mobile Developer,Intern,10 triệu,Others,"GCP, Kubernetes, React, Deep Learning",Demo Company,Sample data for demo purposes,10.0,10.0,VND,10.0,10.0,10.0
+Mobile Developer,Senior,60 triệu,Ho Chi Minh,"Machine Learning, NoSQL, Node.js",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Frontend Developer,Mid-level,35 triệu,Remote,"React, SQL, Python",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Data Analyst,Junior,11 triệu,Ho Chi Minh,"Node.js, Kubernetes, Python, SQL, Java",Demo Company,Sample data for demo purposes,11.0,11.0,VND,11.0,11.0,11.0
+QA Engineer,Mid-level,30 triệu,Hanoi,"Docker, Machine Learning, React, AWS",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Project Manager,Mid-level,45 triệu,Da Nang,"SQL, Azure",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Business Analyst,Junior,15 triệu,Ho Chi Minh,"React, Node.js, Machine Learning",Demo Company,Sample data for demo purposes,15.0,15.0,VND,15.0,15.0,15.0
+Software Engineer,Senior,65 triệu,Ho Chi Minh,"Deep Learning, GCP, JavaScript",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Frontend Developer,Junior,20 triệu,Da Nang,"NoSQL, Azure, GCP, Python",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+QA Engineer,Junior,18 triệu,Hanoi,"Azure, SQL, NoSQL, GCP, Java",Demo Company,Sample data for demo purposes,18.0,18.0,VND,18.0,18.0,18.0
+Frontend Developer,Junior,20 triệu,Da Nang,"GCP, React, Machine Learning, Java",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Frontend Developer,Lead,85 triệu,Hanoi,"NoSQL, GCP, AWS, JavaScript",Demo Company,Sample data for demo purposes,85.0,85.0,VND,85.0,85.0,85.0
+QA Engineer,Intern,10 triệu,Da Nang,"JavaScript, SQL, React",Demo Company,Sample data for demo purposes,10.0,10.0,VND,10.0,10.0,10.0
+Backend Developer,Lead,75 triệu,Hanoi,"AWS, Node.js",Demo Company,Sample data for demo purposes,75.0,75.0,VND,75.0,75.0,75.0
+DevOps Engineer,Lead,65 triệu,Da Nang,"GCP, Deep Learning, Node.js",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Project Manager,Mid-level,40 triệu,Hanoi,"Azure, Machine Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Scientist,Junior,20 triệu,Hanoi,"SQL, React, Java",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Fullstack Developer,Junior,16 triệu,Ho Chi Minh,"Docker, Deep Learning, Python, Machine Learning",Demo Company,Sample data for demo purposes,16.0,16.0,VND,16.0,16.0,16.0
+Project Manager,Mid-level,25 triệu,Hanoi,"React, Azure, Machine Learning, Node.js",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Mobile Developer,Junior,17 triệu,Ho Chi Minh,"Node.js, Azure, React, Deep Learning",Demo Company,Sample data for demo purposes,17.0,17.0,VND,17.0,17.0,17.0
+Software Engineer,Lead,65 triệu,Hanoi,"Deep Learning, SQL, Java, React, Docker",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Data Analyst,Mid-level,25 triệu,Ho Chi Minh,"Python, Kubernetes, React, SQL, Azure",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Software Engineer,Senior,35 triệu,Remote,"AWS, Deep Learning",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Product Manager,Mid-level,25 triệu,Da Nang,"Python, Kubernetes",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Mobile Developer,Mid-level,40 triệu,Ho Chi Minh,"Node.js, Azure, GCP, Docker",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Analyst,Junior,10 triệu,Hanoi,"Java, AWS",Demo Company,Sample data for demo purposes,10.0,10.0,VND,10.0,10.0,10.0
+Frontend Developer,Mid-level,25 triệu,Ho Chi Minh,"NoSQL, Azure",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Project Manager,Mid-level,40 triệu,Ho Chi Minh,"NoSQL, Deep Learning, AWS, Machine Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Backend Developer,Senior,55 triệu,Hanoi,"SQL, Machine Learning, Deep Learning, React",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Business Analyst,Senior,75 triệu,Da Nang,"NoSQL, AWS, SQL",Demo Company,Sample data for demo purposes,75.0,75.0,VND,75.0,75.0,75.0
+QA Engineer,Mid-level,30 triệu,Ho Chi Minh,"Kubernetes, React, NoSQL",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Mobile Developer,Manager,80 triệu,Ho Chi Minh,"JavaScript, Java, SQL, Azure, Docker",Demo Company,Sample data for demo purposes,80.0,80.0,VND,80.0,80.0,80.0
+Frontend Developer,Junior,17 triệu,Ho Chi Minh,"Azure, Python, Node.js, Kubernetes",Demo Company,Sample data for demo purposes,17.0,17.0,VND,17.0,17.0,17.0
+Fullstack Developer,Intern,11 triệu,Ho Chi Minh,"GCP, Machine Learning, Azure, React",Demo Company,Sample data for demo purposes,11.0,11.0,VND,11.0,11.0,11.0
+Fullstack Developer,Mid-level,40 triệu,Ho Chi Minh,"Node.js, React, Python, NoSQL",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Project Manager,Senior,55 triệu,Hanoi,"Machine Learning, React, Java, Azure, Docker",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Product Manager,Senior,75 triệu,Ho Chi Minh,"AWS, SQL",Demo Company,Sample data for demo purposes,75.0,75.0,VND,75.0,75.0,75.0
+DevOps Engineer,Mid-level,40 triệu,Ho Chi Minh,"React, Deep Learning, Docker",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+QA Engineer,Senior,55 triệu,Hanoi,"Deep Learning, JavaScript, Java, Python",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Project Manager,Mid-level,45 triệu,Ho Chi Minh,"Azure, Deep Learning, SQL, GCP",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Software Engineer,Junior,18 triệu,Ho Chi Minh,"Deep Learning, Kubernetes, Azure",Demo Company,Sample data for demo purposes,18.0,18.0,VND,18.0,18.0,18.0
+Software Engineer,Senior,35 triệu,Ho Chi Minh,"Machine Learning, JavaScript",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Data Scientist,Mid-level,40 triệu,Da Nang,"Python, Deep Learning, NoSQL, JavaScript",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Analyst,Mid-level,30 triệu,Da Nang,"Deep Learning, React",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Fullstack Developer,Junior,15 triệu,Hanoi,"Java, Azure, Python",Demo Company,Sample data for demo purposes,15.0,15.0,VND,15.0,15.0,15.0
+Software Engineer,Mid-level,35 triệu,Remote,"AWS, NoSQL",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Software Engineer,Mid-level,25 triệu,Hanoi,"Machine Learning, Docker, React",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Data Analyst,Mid-level,20 triệu,Hanoi,"SQL, AWS, Docker, Deep Learning, Java",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Software Engineer,Mid-level,35 triệu,Hanoi,"Machine Learning, JavaScript, NoSQL, GCP, Python",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+DevOps Engineer,Senior,60 triệu,Ho Chi Minh,"Python, SQL",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Frontend Developer,Junior,20 triệu,Ho Chi Minh,"NoSQL, JavaScript, Python, Java, Deep Learning",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Frontend Developer,Junior,10 triệu,Hanoi,"Python, Azure",Demo Company,Sample data for demo purposes,10.0,10.0,VND,10.0,10.0,10.0
+Frontend Developer,Junior,16 triệu,Ho Chi Minh,"NoSQL, JavaScript, AWS, Java, Machine Learning",Demo Company,Sample data for demo purposes,16.0,16.0,VND,16.0,16.0,16.0
+Software Engineer,Junior,12 triệu,Ho Chi Minh,"GCP, Docker, JavaScript",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Data Analyst,Junior,20 triệu,Ho Chi Minh,"Kubernetes, GCP, Azure",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Fullstack Developer,Senior,55 triệu,Hanoi,"Kubernetes, Node.js, Docker",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Data Scientist,Lead,75 triệu,Ho Chi Minh,"NoSQL, Node.js, AWS, React, Azure",Demo Company,Sample data for demo purposes,75.0,75.0,VND,75.0,75.0,75.0
+Data Analyst,Manager,105 triệu,Hanoi,"Deep Learning, React, AWS, Docker",Demo Company,Sample data for demo purposes,105.0,105.0,VND,105.0,105.0,105.0
+QA Engineer,Senior,45 triệu,Hanoi,"Deep Learning, GCP, Java",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Fullstack Developer,Senior,40 triệu,Ho Chi Minh,"Docker, Kubernetes, Azure",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Analyst,Junior,17 triệu,Hanoi,"Python, SQL",Demo Company,Sample data for demo purposes,17.0,17.0,VND,17.0,17.0,17.0
+Product Manager,Mid-level,35 triệu,Ho Chi Minh,"SQL, Node.js, Kubernetes",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Fullstack Developer,Junior,12 triệu,Remote,"SQL, Kubernetes",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Data Analyst,Senior,65 triệu,Hanoi,"Python, NoSQL, Java, Docker",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Project Manager,Senior,45 triệu,Da Nang,"AWS, GCP, Docker, Azure",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Data Scientist,Senior,40 triệu,Ho Chi Minh,"React, Java, Docker",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Project Manager,Senior,35 triệu,Ho Chi Minh,"JavaScript, Deep Learning, GCP",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Backend Developer,Lead,65 triệu,Ho Chi Minh,"Azure, Deep Learning",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Data Scientist,Senior,60 triệu,Ho Chi Minh,"Docker, SQL, Python",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Project Manager,Mid-level,45 triệu,Ho Chi Minh,"JavaScript, React, GCP",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Mobile Developer,Lead,85 triệu,Da Nang,"GCP, Deep Learning, Machine Learning, Java, NoSQL",Demo Company,Sample data for demo purposes,85.0,85.0,VND,85.0,85.0,85.0
+Project Manager,Mid-level,25 triệu,Ho Chi Minh,"NoSQL, Java, Deep Learning, Kubernetes, Machine Learning",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Data Analyst,Senior,45 triệu,Ho Chi Minh,"Azure, Kubernetes, NoSQL",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Data Analyst,Manager,95 triệu,Ho Chi Minh,"React, Python, Deep Learning, AWS",Demo Company,Sample data for demo purposes,95.0,95.0,VND,95.0,95.0,95.0
+Project Manager,Manager,125 triệu,Da Nang,"Azure, GCP, AWS, JavaScript, Node.js",Demo Company,Sample data for demo purposes,125.0,125.0,VND,125.0,125.0,125.0
+Data Scientist,Mid-level,40 triệu,Ho Chi Minh,"Node.js, NoSQL",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Product Manager,Mid-level,35 triệu,Hanoi,"Docker, Python, GCP",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Data Scientist,Lead,90 triệu,Hanoi,"GCP, Docker, Python, Azure, React",Demo Company,Sample data for demo purposes,90.0,90.0,VND,90.0,90.0,90.0
+DevOps Engineer,Junior,19 triệu,Ho Chi Minh,"Azure, JavaScript, AWS, GCP, Kubernetes",Demo Company,Sample data for demo purposes,19.0,19.0,VND,19.0,19.0,19.0
+Mobile Developer,Mid-level,50 triệu,Ho Chi Minh,"GCP, Machine Learning",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Fullstack Developer,Senior,65 triệu,Hanoi,"Machine Learning, AWS, SQL",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Fullstack Developer,Senior,60 triệu,Ho Chi Minh,"JavaScript, Python, Java",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Fullstack Developer,Intern,12 triệu,Hanoi,"Machine Learning, Deep Learning, Docker",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Backend Developer,Senior,50 triệu,Da Nang,"AWS, Java, NoSQL",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Project Manager,Senior,55 triệu,Ho Chi Minh,"NoSQL, Kubernetes, AWS, Node.js, JavaScript",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Data Scientist,Senior,50 triệu,Hanoi,"SQL, Java, Machine Learning, NoSQL, Azure",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Software Engineer,Senior,60 triệu,Ho Chi Minh,"Node.js, JavaScript",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+DevOps Engineer,Senior,50 triệu,Ho Chi Minh,"GCP, Node.js, Java",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Fullstack Developer,Senior,40 triệu,Ho Chi Minh,"Python, Java",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Business Analyst,Manager,115 triệu,Hanoi,"Azure, Python",Demo Company,Sample data for demo purposes,115.0,115.0,VND,115.0,115.0,115.0
+Product Manager,Senior,40 triệu,Da Nang,"Machine Learning, React, Java",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Project Manager,Junior,13 triệu,Hanoi,"Azure, JavaScript, Machine Learning",Demo Company,Sample data for demo purposes,13.0,13.0,VND,13.0,13.0,13.0
+Data Analyst,Lead,80 triệu,Remote,"GCP, Python, AWS, Docker",Demo Company,Sample data for demo purposes,80.0,80.0,VND,80.0,80.0,80.0
+Product Manager,Mid-level,40 triệu,Ho Chi Minh,"NoSQL, Java, Azure, Deep Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Business Analyst,Mid-level,35 triệu,Hanoi,"Python, React, Docker",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Product Manager,Senior,50 triệu,Ho Chi Minh,"SQL, Azure, Kubernetes, Node.js",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Frontend Developer,Senior,55 triệu,Ho Chi Minh,"React, GCP, Deep Learning",Demo Company,Sample data for demo purposes,55.0,55.0,VND,55.0,55.0,55.0
+Mobile Developer,Junior,20 triệu,Hanoi,"GCP, React, SQL, Docker, Deep Learning",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Mobile Developer,Senior,65 triệu,Ho Chi Minh,"Machine Learning, JavaScript, Deep Learning, GCP",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+DevOps Engineer,Junior,11 triệu,Hanoi,"Deep Learning, Node.js, GCP",Demo Company,Sample data for demo purposes,11.0,11.0,VND,11.0,11.0,11.0
+Mobile Developer,Junior,18 triệu,Hanoi,"React, AWS, Docker, Python, Machine Learning",Demo Company,Sample data for demo purposes,18.0,18.0,VND,18.0,18.0,18.0
+Data Analyst,Manager,105 triệu,Hanoi,"AWS, Kubernetes, Deep Learning, NoSQL, JavaScript",Demo Company,Sample data for demo purposes,105.0,105.0,VND,105.0,105.0,105.0
+DevOps Engineer,Senior,35 triệu,Others,"Machine Learning, Node.js, Python",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Frontend Developer,Senior,50 triệu,Hanoi,"SQL, Machine Learning, NoSQL, Azure",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Software Engineer,Manager,145 triệu,Ho Chi Minh,"JavaScript, AWS",Demo Company,Sample data for demo purposes,145.0,145.0,VND,145.0,145.0,145.0
+DevOps Engineer,Senior,45 triệu,Da Nang,"Deep Learning, Machine Learning, AWS, Docker, Node.js",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Business Analyst,Mid-level,45 triệu,Hanoi,"Azure, GCP, Deep Learning",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+DevOps Engineer,Lead,80 triệu,Others,"Java, Machine Learning, JavaScript",Demo Company,Sample data for demo purposes,80.0,80.0,VND,80.0,80.0,80.0
+Business Analyst,Mid-level,30 triệu,Da Nang,"SQL, AWS",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Software Engineer,Junior,20 triệu,Hanoi,"Docker, Node.js, Azure, JavaScript, Python",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Frontend Developer,Junior,12 triệu,Hanoi,"Python, Machine Learning, Kubernetes, Node.js",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Fullstack Developer,Senior,50 triệu,Hanoi,"JavaScript, Java, Docker, React, SQL",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Fullstack Developer,Junior,25 triệu,Hanoi,"GCP, JavaScript",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+QA Engineer,Senior,40 triệu,Ho Chi Minh,"Python, NoSQL, GCP, Node.js, Deep Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Mobile Developer,Senior,60 triệu,Hanoi,"JavaScript, Machine Learning, NoSQL, AWS, Azure",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Software Engineer,Mid-level,35 triệu,Ho Chi Minh,"Azure, SQL, Docker",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Business Analyst,Mid-level,25 triệu,Hanoi,"React, Python, Docker, JavaScript, Java",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Frontend Developer,Senior,60 triệu,Hanoi,"React, Docker, Node.js, JavaScript, Deep Learning",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Project Manager,Mid-level,25 triệu,Hanoi,"Java, Python, Machine Learning, SQL, React",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Product Manager,Junior,25 triệu,Hanoi,"GCP, Node.js, Deep Learning",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+DevOps Engineer,Senior,60 triệu,Hanoi,"Python, Deep Learning, Azure",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Frontend Developer,Junior,16 triệu,Ho Chi Minh,"Python, Java, JavaScript",Demo Company,Sample data for demo purposes,16.0,16.0,VND,16.0,16.0,16.0
+Product Manager,Junior,18 triệu,Ho Chi Minh,"Azure, Python, GCP, Node.js",Demo Company,Sample data for demo purposes,18.0,18.0,VND,18.0,18.0,18.0
+Product Manager,Senior,45 triệu,Hanoi,"Node.js, Python, JavaScript",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+QA Engineer,Senior,35 triệu,Ho Chi Minh,"GCP, Azure, Machine Learning",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Software Engineer,Senior,70 triệu,Hanoi,"AWS, React, Docker",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+QA Engineer,Junior,20 triệu,Ho Chi Minh,"NoSQL, Machine Learning, Docker, JavaScript, Node.js",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Product Manager,Mid-level,40 triệu,Hanoi,"Machine Learning, React",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Scientist,Mid-level,35 triệu,Da Nang,"React, Azure, Docker",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Software Engineer,Junior,25 triệu,Ho Chi Minh,"Docker, Deep Learning, React, JavaScript",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Software Engineer,Mid-level,40 triệu,Ho Chi Minh,"Azure, Docker, Deep Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Analyst,Intern,12 triệu,Hanoi,"NoSQL, Node.js, Deep Learning, SQL, React",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Business Analyst,Mid-level,30 triệu,Ho Chi Minh,"Node.js, AWS, Deep Learning",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+DevOps Engineer,Junior,20 triệu,Hanoi,"Node.js, AWS, Docker, SQL, Deep Learning",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Frontend Developer,Lead,80 triệu,Ho Chi Minh,"Python, Azure, Node.js",Demo Company,Sample data for demo purposes,80.0,80.0,VND,80.0,80.0,80.0
+Business Analyst,Intern,8 triệu,Hanoi,"GCP, Machine Learning, React",Demo Company,Sample data for demo purposes,8.0,8.0,VND,8.0,8.0,8.0
+Product Manager,Junior,20 triệu,Ho Chi Minh,"Node.js, Python",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Data Analyst,Mid-level,30 triệu,Ho Chi Minh,"Docker, NoSQL, Python, Machine Learning, Azure",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+DevOps Engineer,Mid-level,35 triệu,Ho Chi Minh,"Docker, React, SQL, Azure, Deep Learning",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Backend Developer,Junior,19 triệu,Hanoi,"NoSQL, AWS, Node.js",Demo Company,Sample data for demo purposes,19.0,19.0,VND,19.0,19.0,19.0
+Fullstack Developer,Mid-level,35 triệu,Ho Chi Minh,"SQL, Deep Learning, Java",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+DevOps Engineer,Senior,45 triệu,Others,"Docker, AWS, Python",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Mobile Developer,Senior,40 triệu,Ho Chi Minh,"React, NoSQL, Deep Learning, Machine Learning, JavaScript",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Project Manager,Manager,165 triệu,Ho Chi Minh,"AWS, Machine Learning, Deep Learning",Demo Company,Sample data for demo purposes,165.0,165.0,VND,165.0,165.0,165.0
+Business Analyst,Mid-level,45 triệu,Hanoi,"NoSQL, Python, Node.js",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+DevOps Engineer,Senior,70 triệu,Hanoi,"GCP, Java, Docker, Azure, React",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Project Manager,Junior,20 triệu,Da Nang,"Kubernetes, Docker",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Data Analyst,Senior,40 triệu,Hanoi,"Java, Deep Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Backend Developer,Mid-level,40 triệu,Hanoi,"SQL, React, Machine Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Project Manager,Senior,50 triệu,Hanoi,"Deep Learning, React, SQL, Azure",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Data Analyst,Mid-level,35 triệu,Remote,"Node.js, Deep Learning, React, JavaScript, GCP",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Data Analyst,Mid-level,25 triệu,Ho Chi Minh,"Python, Kubernetes, GCP, Java, JavaScript",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Fullstack Developer,Senior,50 triệu,Hanoi,"NoSQL, Machine Learning, React, SQL",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+DevOps Engineer,Senior,45 triệu,Hanoi,"Node.js, SQL",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Business Analyst,Mid-level,25 triệu,Da Nang,"GCP, Docker, React, Node.js",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Business Analyst,Junior,25 triệu,Ho Chi Minh,"React, GCP",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Project Manager,Senior,45 triệu,Da Nang,"Machine Learning, Azure",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Mobile Developer,Mid-level,45 triệu,Hanoi,"JavaScript, AWS, Python, SQL, Machine Learning",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Data Analyst,Senior,70 triệu,Ho Chi Minh,"AWS, Azure, React, GCP",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Project Manager,Mid-level,35 triệu,Ho Chi Minh,"React, Deep Learning, GCP, Azure",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Data Scientist,Mid-level,40 triệu,Ho Chi Minh,"Java, GCP, NoSQL",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Analyst,Junior,25 triệu,Ho Chi Minh,"GCP, Java",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+DevOps Engineer,Junior,20 triệu,Ho Chi Minh,"NoSQL, Docker, Machine Learning",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Backend Developer,Junior,13 triệu,Hanoi,"Python, JavaScript, React, Azure",Demo Company,Sample data for demo purposes,13.0,13.0,VND,13.0,13.0,13.0
+Mobile Developer,Mid-level,45 triệu,Da Nang,"Machine Learning, React, NoSQL, Node.js, SQL",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Mobile Developer,Mid-level,40 triệu,Ho Chi Minh,"SQL, React, GCP, Docker",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Project Manager,Mid-level,35 triệu,Ho Chi Minh,"Java, Azure",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Product Manager,Lead,65 triệu,Hanoi,"JavaScript, Kubernetes, GCP",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Data Analyst,Senior,40 triệu,Remote,"React, Java, Kubernetes, GCP, Deep Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Analyst,Senior,60 triệu,Hanoi,"React, Node.js, Python",Demo Company,Sample data for demo purposes,60.0,60.0,VND,60.0,60.0,60.0
+Mobile Developer,Mid-level,45 triệu,Hanoi,"AWS, Azure, Node.js, Kubernetes, Java",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+QA Engineer,Mid-level,30 triệu,Hanoi,"Node.js, JavaScript, Machine Learning, Docker, NoSQL",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Data Scientist,Junior,12 triệu,Ho Chi Minh,"React, NoSQL, JavaScript, Azure, Deep Learning",Demo Company,Sample data for demo purposes,12.0,12.0,VND,12.0,12.0,12.0
+Backend Developer,Mid-level,30 triệu,Hanoi,"Node.js, Python, Java",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Business Analyst,Mid-level,40 triệu,Ho Chi Minh,"Azure, SQL, GCP",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+DevOps Engineer,Manager,80 triệu,Ho Chi Minh,"AWS, JavaScript",Demo Company,Sample data for demo purposes,80.0,80.0,VND,80.0,80.0,80.0
+Data Scientist,Mid-level,40 triệu,Hanoi,"Node.js, React, Azure",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Scientist,Intern,9 triệu,Hanoi,"AWS, JavaScript, Node.js, Deep Learning",Demo Company,Sample data for demo purposes,9.0,9.0,VND,9.0,9.0,9.0
+DevOps Engineer,Mid-level,40 triệu,Ho Chi Minh,"Machine Learning, Kubernetes, Docker, JavaScript",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Data Analyst,Mid-level,35 triệu,Da Nang,"NoSQL, AWS, React",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Business Analyst,Junior,25 triệu,Hanoi,"NoSQL, Node.js, JavaScript, Deep Learning, Machine Learning",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Business Analyst,Mid-level,40 triệu,Ho Chi Minh,"Kubernetes, Node.js",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+QA Engineer,Mid-level,30 triệu,Hanoi,"JavaScript, React",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Backend Developer,Manager,95 triệu,Ho Chi Minh,"Java, NoSQL, Docker",Demo Company,Sample data for demo purposes,95.0,95.0,VND,95.0,95.0,95.0
+Business Analyst,Junior,20 triệu,Ho Chi Minh,"AWS, Node.js, NoSQL",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Business Analyst,Mid-level,35 triệu,Hanoi,"React, Python, Kubernetes, NoSQL",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Product Manager,Junior,14 triệu,Hanoi,"Java, AWS",Demo Company,Sample data for demo purposes,14.0,14.0,VND,14.0,14.0,14.0
+Data Scientist,Manager,70 triệu,Hanoi,"Node.js, React, Machine Learning",Demo Company,Sample data for demo purposes,70.0,70.0,VND,70.0,70.0,70.0
+Backend Developer,Manager,170 triệu,Remote,"Azure, SQL, Python, Deep Learning, AWS",Demo Company,Sample data for demo purposes,170.0,170.0,VND,170.0,170.0,170.0
+Fullstack Developer,Junior,18 triệu,Ho Chi Minh,"JavaScript, Azure, Docker, Python",Demo Company,Sample data for demo purposes,18.0,18.0,VND,18.0,18.0,18.0
+QA Engineer,Mid-level,20 triệu,Ho Chi Minh,"JavaScript, Node.js",Demo Company,Sample data for demo purposes,20.0,20.0,VND,20.0,20.0,20.0
+Product Manager,Senior,50 triệu,Ho Chi Minh,"Azure, NoSQL, React, SQL, Machine Learning",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Project Manager,Junior,8 triệu,Hanoi,"Docker, Machine Learning, Deep Learning, Node.js",Demo Company,Sample data for demo purposes,8.0,8.0,VND,8.0,8.0,8.0
+Product Manager,Senior,45 triệu,Others,"SQL, AWS, Machine Learning",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+Business Analyst,Senior,35 triệu,Ho Chi Minh,"NoSQL, React",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+Data Scientist,Mid-level,35 triệu,Hanoi,"Java, JavaScript, Python, Node.js",Demo Company,Sample data for demo purposes,35.0,35.0,VND,35.0,35.0,35.0
+DevOps Engineer,Manager,80 triệu,Hanoi,"NoSQL, Kubernetes, Azure, JavaScript, GCP",Demo Company,Sample data for demo purposes,80.0,80.0,VND,80.0,80.0,80.0
+Software Engineer,Junior,15 triệu,Ho Chi Minh,"Java, SQL, GCP, React",Demo Company,Sample data for demo purposes,15.0,15.0,VND,15.0,15.0,15.0
+Frontend Developer,Senior,75 triệu,Remote,"Deep Learning, Node.js, Kubernetes, Azure, JavaScript",Demo Company,Sample data for demo purposes,75.0,75.0,VND,75.0,75.0,75.0
+Product Manager,Junior,15 triệu,Hanoi,"Python, Java, SQL",Demo Company,Sample data for demo purposes,15.0,15.0,VND,15.0,15.0,15.0
+Software Engineer,Senior,65 triệu,Ho Chi Minh,"Java, GCP, NoSQL",Demo Company,Sample data for demo purposes,65.0,65.0,VND,65.0,65.0,65.0
+Mobile Developer,Senior,45 triệu,Ho Chi Minh,"Java, Deep Learning, Docker, Azure",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+DevOps Engineer,Junior,25 triệu,Ho Chi Minh,"Node.js, React, SQL, Kubernetes",Demo Company,Sample data for demo purposes,25.0,25.0,VND,25.0,25.0,25.0
+Software Engineer,Mid-level,40 triệu,Hanoi,"AWS, Deep Learning",Demo Company,Sample data for demo purposes,40.0,40.0,VND,40.0,40.0,40.0
+Software Engineer,Senior,50 triệu,Hanoi,"AWS, Node.js, Deep Learning, Azure, JavaScript",Demo Company,Sample data for demo purposes,50.0,50.0,VND,50.0,50.0,50.0
+Project Manager,Junior,11 triệu,Hanoi,"Deep Learning, AWS, SQL, Azure, Java",Demo Company,Sample data for demo purposes,11.0,11.0,VND,11.0,11.0,11.0
+Product Manager,Senior,45 triệu,Hanoi,"Azure, SQL",Demo Company,Sample data for demo purposes,45.0,45.0,VND,45.0,45.0,45.0
+DevOps Engineer,Manager,80 triệu,Ho Chi Minh,"GCP, Kubernetes",Demo Company,Sample data for demo purposes,80.0,80.0,VND,80.0,80.0,80.0
+DevOps Engineer,Mid-level,30 triệu,Ho Chi Minh,"Docker, SQL, Deep Learning, Azure",Demo Company,Sample data for demo purposes,30.0,30.0,VND,30.0,30.0,30.0
+Frontend Developer,Junior,15 triệu,Hanoi,"Node.js, Kubernetes, Machine Learning",Demo Company,Sample data for demo purposes,15.0,15.0,VND,15.0,15.0,15.0

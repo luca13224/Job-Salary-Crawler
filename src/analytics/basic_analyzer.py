@@ -96,7 +96,35 @@ def main():
     print(f"Sử dụng file dữ liệu: {latest_file}")
     df = pd.read_csv(latest_file)
 
-    # Ensure salary column is numeric
+    # Normalize possible column names
+    if 'job_title' in df.columns and 'title' not in df.columns:
+        df.rename(columns={'job_title': 'title'}, inplace=True)
+
+    # If avg salary not present, try to compute from raw 'salary' column
+    if 'avg_salary_mil_vnd' not in df.columns or df['avg_salary_mil_vnd'].isnull().all():
+        print("'avg_salary_mil_vnd' không tồn tại hoặc rỗng. Cố gắng trích xuất từ cột 'salary'...")
+        USD_TO_VND_RATE = 25000
+        def parse_salary_simple(s):
+            if not isinstance(s, str):
+                return None
+            s_lower = s.lower()
+            nums = [float(n) for n in re.findall(r'(\d+\.?\d*)', s_lower)]
+            if not nums:
+                return None
+            avg = sum(nums) / len(nums)
+            if 'usd' in s_lower or '$' in s_lower:
+                # convert USD -> million VND
+                avg = (avg * USD_TO_VND_RATE) / 1_000_000
+            # If the string mentions 'triệu' keep as is (already millions)
+            return avg
+
+        if 'salary' in df.columns:
+            df['avg_salary_mil_vnd'] = df['salary'].apply(parse_salary_simple)
+        else:
+            print("Không tìm thấy cột 'salary' để trích xuất lương. Kết thúc.")
+            return
+
+    # Ensure salary column is numeric and drop NaNs
     df['avg_salary_mil_vnd'] = pd.to_numeric(df['avg_salary_mil_vnd'], errors='coerce')
     df.dropna(subset=['avg_salary_mil_vnd'], inplace=True)
     

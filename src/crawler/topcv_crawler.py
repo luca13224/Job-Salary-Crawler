@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import datetime
 import time
+import re
 
 # Base URL for TopCV IT jobs search
 BASE_URL = "https://www.topcv.vn/tim-viec-lam-it-phan-mem-c10026"
@@ -49,8 +50,13 @@ def crawl_jobs(num_pages=1):
             continue
 
         soup = BeautifulSoup(response.content, 'html.parser')
-        
+
+        # Try a few different selectors to be resilient to layout changes
         job_postings = soup.find_all('div', class_='job-item-new-2023')
+        if not job_postings:
+            job_postings = soup.select('div.job-item, li.list-item, a.job-link')
+        if not job_postings:
+            job_postings = soup.find_all('a', href=re.compile(r'/tim-viec-lam|/viec-lam|/job'))
 
         if not job_postings:
             print(f"No job postings found on page {page}. The structure might have changed.")
@@ -58,23 +64,39 @@ def crawl_jobs(num_pages=1):
 
         for job in job_postings:
             try:
-                title_tag = job.find('h3', class_='title')
-                company_tag = job.find('a', class_='company-name-new-2023')
-                salary_tag = job.find('span', class_='salary')
-                location_tags = job.find_all('span', class_='address')
+                # Extract title and URL in a more permissive way
+                title_tag = job.find(['h3', 'a', 'h2'])
+                if not title_tag:
+                    title_tag = job if job.name == 'a' else None
+
+                company_tag = job.find('a', class_='company-name-new-2023') or job.find('div', class_='company')
+                salary_tag = job.find('span', class_='salary') or job.find('p', class_='salary')
+                location_tags = job.find_all(['span', 'p'], class_='address') or job.find_all('span', class_='location')
 
                 title = title_tag.get_text(strip=True) if title_tag else None
-                company = company_tag.get_text(strip=True) if company_tag else None
-                job_url = title_tag.find('a')['href'] if title_tag and title_tag.find('a') else None
-                
+                company = company_tag.get_text(strip=True) if company_tag else 'N/A'
+
+                job_url = None
+                # Try to get href from various places
+                if title_tag and title_tag.find('a'):
+                    job_url = title_tag.find('a').get('href')
+                elif job.get('href'):
+                    job_url = job.get('href')
+                elif job.find('a') and job.find('a').get('href'):
+                    job_url = job.find('a').get('href')
+
+                # Make absolute
+                if job_url and job_url.startswith('/'):
+                    job_url = requests.compat.urljoin(BASE_URL, job_url)
+
                 # Handle cases where salary is not disclosed
                 salary = salary_tag.get_text(strip=True) if salary_tag else "Thỏa thuận"
 
                 # Join multiple location parts if they exist
-                locations = [loc.get_text(strip=True) for loc in location_tags]
+                locations = [loc.get_text(strip=True) for loc in location_tags] if location_tags else []
                 location = ", ".join(locations) if locations else None
 
-                if title and company and job_url:
+                if title and job_url:
                     all_jobs.append({
                         'title': title,
                         'company': company,
@@ -118,14 +140,27 @@ def save_data(df):
     print(f"Data saved successfully to {output_path}")
 
 if __name__ == '__main__':
-    print("Starting TopCV job crawler...")
-    # For a demo, let's crawl the first 2 pages
-    job_data = crawl_jobs(num_pages=2) 
+    print("=" * 60)
+    print("🚀 TopCV Job Crawler - Real Market Data Collection")
+    print("=" * 60)
+    print(f"Target: {BASE_URL}")
+    
+    # Crawl more pages for better data coverage
+    num_pages = 10
+    print(f"Pages to crawl: {num_pages}")
+    print("=" * 60)
+    
+    job_data = crawl_jobs(num_pages=num_pages) 
     
     if not job_data.empty:
         save_data(job_data)
-        print(f"Crawled {len(job_data)} jobs.")
+        print("\n" + "=" * 60)
+        print(f"✅ Successfully crawled {len(job_data)} jobs from TopCV!")
+        print("=" * 60)
+        print("\n📝 Next steps:")
+        print("1. python src/processing/salary_parser.py  (to process salary data)")
+        print("2. python import_to_db.py  (to import into database)")
     else:
-        print("No jobs were crawled.")
+        print("\n❌ No jobs were crawled. Please check your internet connection.")
     
-    print("Crawler finished.")
+    print("\n🏁 Crawler finished.")
